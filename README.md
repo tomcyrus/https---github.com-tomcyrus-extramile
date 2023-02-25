@@ -38,8 +38,6 @@
 
 - Clone this repo to your local machine using:
 
-<!-- "next-sitemap": "^1.1.6" -->
-
 ```
 https://github.com/solrachix/landing-page-template_4
 ```
