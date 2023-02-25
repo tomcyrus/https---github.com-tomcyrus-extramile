@@ -30,7 +30,7 @@
   "devDependencies": {
     "imagemin-mozjpeg": "^9.0.0",
     "imagemin-optipng": "^8.0.0",
-    "imagemin-svgo": "^8.0.0",
-    "next-sitemap": "^1.1.6"
+    "imagemin-svgo": "^8.0.0"
+    
   }
 }
