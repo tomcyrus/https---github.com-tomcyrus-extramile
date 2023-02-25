@@ -38,8 +38,6 @@
 
 - Clone this repo to your local machine using:
 
-<!-- "next-sitemap": "^1.1.6" -->
-
 ```
 https://github.com/solrachix/landing-page-template_4
 ```
@@ -129,4 +127,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-Made by Carlos Miguel with 💙 Enjoy it!# extramile
+Made by Carlos Miguel with 💙 Enjoy it!

@@ -18,7 +18,7 @@ const logos = [
     src: google,
   },
   {
-    name: 'Dropboxs',
+    name: 'Dropbox',
     src: dropbox,
   },
 ];
