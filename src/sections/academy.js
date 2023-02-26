@@ -53,7 +53,7 @@ const Academy = () => {
           </Box>
           <SectionHeading
           sx={styles.heading}
-          title="Join Closa by Extramile Today"
+          title="Join Closer by Extramile Today"
           description="Joining ExtraCoop will also gives you the ample opportunity to partner and collaborate with us 
           and earn 5% ROI on your money every 3months for 2years."
           
@@ -61,9 +61,9 @@ const Academy = () => {
         
         </Grid>
         <center>
-            <Link path="/closa">
-            <Button >Join Closa</Button>
-            </Link>
+            <a href="https://www.closa.extramile.africa">
+            <Button >Join Closer</Button>
+            </a>
             </center>
       </Container>
       

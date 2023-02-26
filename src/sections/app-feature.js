@@ -1,5 +1,5 @@
 /** @jsx jsx */
-import { jsx, Box, Grid, Flex, Container, Image, Text } from 'theme-ui';
+import { jsx, Box, Grid, Flex, Container,Button, Image, Text } from 'theme-ui';
 import SectionHeading from 'components/section-heading';
 import { LearnMore } from 'components/link';
 import app from 'assets/images/shop.png';
@@ -64,8 +64,11 @@ const AppFeature = () => {
             <Text as="p">
             Buy anything on credit and jump on our pay as you go plan.
             </Text>
-           <br></br>
-           <LearnMore label="Learn more" path="#!" />
+           <br></br> 
+           <a href="https://www.closa.extramile.africa/store">
+            <Button >Extrastore</Button>
+            </a>
+            <br></br>
           </Box>
           <Box sx={styles.illustration}>
             <Image src={app} alt="workHard" />
