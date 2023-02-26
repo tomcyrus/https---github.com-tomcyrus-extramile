@@ -11,12 +11,12 @@ import emoji from 'assets/images/icons/emoji.png';
 
 const data = [
   {
-    title: ' Academy',
+    title: '',
     contents: (
       <div>
-        Credit-on-the-go to access instant solar-power to power your shops, schools, offices, farms, and homes.
+        Success in business and career requires lots of learning, most especially in-demand skillsets require to upscale and reskill you or employees in today digital economy. 
         <br></br>
-        Get Instant access on credit and pay back bit-by-bit without sweating.
+        Extramile Africa unlock the access to Extramile Business Development Academy courses to enable you get knowledge-specifics at affordable fees.
         <br></br>
 
        
@@ -39,7 +39,7 @@ const Academy = () => {
             //   emoji={emoji}
               sx={styles.heading}
               title="Extramile Business Development Academy"
-              description="You don't want to miss the fantastic business courses on Extramile Academy "
+              description="With Extramile Africa, it is all about giving you seamless digital financial inclusion Access to transmit you from Little to More... "
             />
             <Box sx={styles.accordionGroup}>
               <Accordion items={data} />
@@ -53,9 +53,10 @@ const Academy = () => {
           </Box>
           <SectionHeading
           sx={styles.heading}
-          title="Join Closer by Extramile Today"
-          description="Joining ExtraCoop will also gives you the ample opportunity to partner and collaborate with us 
-          and earn 5% ROI on your money every 3months for 2years."
+          title="Get Free Access to our Community- Closer by Extramile Africa"
+          description="Join our community of Closer by Extramile Africa today and start earning money with us
+          Extramile Africa leverage on the power of our community to drive repeated growth via referrals, distribution channels and Affiliate Partners and associates. 
+        Join us and earn passive income."
           
         />
         
