@@ -3,7 +3,7 @@ import { ThemeProvider } from 'theme-ui';
 import theme from 'theme';
 import SEO from 'components/seo';
 import Layout from 'components/layout';
-import Extracoop from 'sections/Extracoop';
+// import Extracoop from 'sections/Extracoop';
 
 export default function IndexPage() {
   return (
@@ -14,7 +14,7 @@ export default function IndexPage() {
           description="Extramile Africa is your hybrid cooperative plugin to access everyday products and services on credit."
         />
         
-        <Extracoop />
+        {/* <Extracoop /> */}
        
       </Layout>
     </ThemeProvider>
