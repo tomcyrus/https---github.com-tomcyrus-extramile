@@ -13,20 +13,22 @@ import Dashboard from 'sections/dashboard';
 import Pricing from 'sections/pricing';
 import Testimonials from 'sections/testimonials';
 import Subscribe from 'sections/subscribe';
+import Academy from 'sections/academy';
 
 export default function IndexPage() {
   return (
     <ThemeProvider theme={theme}>
       <Layout>
         <SEO
-          title="Startup Agency Alpha Landing"
-          description="Coleção de modelos de landings gratuitos de topo de linha, criados com o react / next js. Gratuito para baixar, basta editar e implantar!"
+          title="Extramile Africa"
+          description="Financial inclusion and wellness for shared-prosperity, cooperative growth, healthy living and everyday essentials with lots of seamless access to credit-on-the-go solutions"
         />
         <Banner />
         <Support />
         <PremiumFeature />
         <AppFeature />
         <Dashboard />
+        <Academy />
         <Pricing />
         <Testimonials />
         <Subscribe />
