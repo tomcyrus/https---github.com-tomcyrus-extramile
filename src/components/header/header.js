@@ -7,9 +7,11 @@ import NavbarDrawer from './navbar-drawer';
 import Image from 'components/image';
 import Logo from 'components/logo';
 import { NavLink } from 'components/link';
-
+import { Link } from 'components/link';
+import extracoop from 'pages/extracoop';
 import menuItems from './header.data';
 import lock from 'assets/images/icons/lock.png';
+import logo from 'assets/images/logo.jpg';
 
 export default function Header() {
   const [state, setState] = useState({
@@ -35,6 +37,7 @@ export default function Header() {
             <Container>
               <Box sx={styles.headerInner}>
                 <Logo sx={styles.logo} isSticky={state.isSticky} />
+                {/* <Image src={logo} alt="extramile" isSticky={state.isSticky} /> */}
                 <Flex
                   as="nav"
                   sx={styles.navbar}
@@ -57,13 +60,16 @@ export default function Header() {
                   </Box>
                 </Flex>
                 <Flex sx={styles.buttonGroup}>
-                  <button sx={styles.login}>
-                    <Image src={lock} alt="lock icon" />
-                    Login
-                  </button>
-                  <Button variant="text" sx={styles.getStarted}>
-                    Iniciar
+                <Link path="/extracoop">
+                  <Button variant="text" sx={styles.login} href="#">
+                    Get Started
                   </Button>
+                  </Link>
+                  <Link path="/contact">
+                  <Button variant="text" sx={styles.getStarted} path="#">
+                    Contact Us
+                  </Button>
+                  </Link>
                 </Flex>
                 <NavbarDrawer />
               </Box>
