@@ -2,34 +2,38 @@
 import { jsx, Box, Grid, Flex, Container, Image, Text } from 'theme-ui';
 import SectionHeading from 'components/section-heading';
 import { LearnMore } from 'components/link';
-import app from 'assets/images/app.png';
+import app from 'assets/images/shop.png';
 import emoji from 'assets/images/icons/emoji.png';
 import check from 'assets/images/icons/check-circle.png';
 
 const data = [
   {
     id: 1,
-    label: 'Médica e visão',
+    label: 'ExtraPower',
   },
   {
     id: 2,
-    label: 'Seguro de vida',
+    label: 'ExtraB-support',
   },
   {
     id: 3,
-    label: '400(k) de economia',
+    label: 'ExtraFarm',
   },
   {
     id: 4,
-    label: 'HSAs e FSAs',
+    label: 'ExtraCare',
   },
   {
     id: 5,
-    label: 'Benefícios de deslocamento',
+    label: 'Extramile Homes and Properties',
   },
   {
     id: 6,
-    label: 'Economia de 529 faculdade',
+    label: 'Extraride',
+  },
+  {
+    id: 7,
+    label: 'Extrasmart',
   },
 ];
 
@@ -42,9 +46,11 @@ const AppFeature = () => {
             <SectionHeading
               emoji={emoji}
               sx={styles.heading}
-              title="Construído em um app para dar uma resposta instantânea no menor tempo possível"
-              description="Obtenha seus testes entregues em let home coletar amostras da vitória das gerências que fornecem as melhores diretrizes de sistema de design de todos os tempos."
+              title="ExtraStore and drives"
+              description="ExtraStore powers and drives discounted prices and pay as you go (we partner with small businesses to deliver pay as you go services to our buyers). We snap products and put our prices on them. (Under Extrastore, we have categories;"
             />
+           
+
             <Box sx={styles.features}>
               {data?.map(({ id, label }) => (
                 <Flex key={id} as="span" sx={{ alignItems: 'flex-start' }}>
@@ -53,7 +59,13 @@ const AppFeature = () => {
                 </Flex>
               ))}
             </Box>
-            <LearnMore label="Explore mais" path="#!" />
+           
+          <br></br>
+            <Text as="p">
+            Buy anything on credit and jump on our pay as you go plan.
+            </Text>
+           <br></br>
+           <LearnMore label="Learn more" path="#!" />
           </Box>
           <Box sx={styles.illustration}>
             <Image src={app} alt="workHard" />
