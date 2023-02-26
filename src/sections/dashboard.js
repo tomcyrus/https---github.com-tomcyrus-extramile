@@ -18,7 +18,7 @@ const data = [
     tabPane: [
       {
         icon: <Currency />,
-        title: 'Visão geral do orçamento',
+        title: 'ExtraPower',
       },
     ],
     tabContent: [
@@ -35,7 +35,7 @@ const data = [
     tabPane: [
       {
         icon: <Cog />,
-        title: 'Criar & ajustar',
+        title: 'ExtraB-support',
       },
     ],
     tabContent: [
@@ -52,7 +52,7 @@ const data = [
     tabPane: [
       {
         icon: <PieChart />,
-        title: 'Ver relatórios',
+        title: 'ExtraFarm',
       },
     ],
     tabContent: [
@@ -69,7 +69,7 @@ const data = [
     tabPane: [
       {
         icon: <Suitcase />,
-        title: 'Otimize o site',
+        title: 'ExtraCare',
       },
     ],
     tabContent: [
@@ -86,7 +86,41 @@ const data = [
     tabPane: [
       {
         icon: <BarChart />,
-        title: 'Painel Personalizado',
+        title: 'Homes and Properties',
+      },
+    ],
+    tabContent: [
+      {
+        image: dashboard,
+        title: `Quinto recurso de qualidade que melhora a classificação e o desempenho do seu site`,
+        description: `Construa um local de trabalho incrível e expanda seus negócios com a plataforma tudo-em-um da Gusto com conteúdos incríveis. Faça a entrega de seus testes em let home coletar amostras da vitória do sistema de design de suprimentos.`,
+        readMore: '#introduce-quality',
+      },
+    ],
+  },
+  {
+    id: 6,
+    tabPane: [
+      {
+        icon: <BarChart />,
+        title: 'Extraride',
+      },
+    ],
+    tabContent: [
+      {
+        image: dashboard,
+        title: `Quinto recurso de qualidade que melhora a classificação e o desempenho do seu site`,
+        description: `Construa um local de trabalho incrível e expanda seus negócios com a plataforma tudo-em-um da Gusto com conteúdos incríveis. Faça a entrega de seus testes em let home coletar amostras da vitória do sistema de design de suprimentos.`,
+        readMore: '#introduce-quality',
+      },
+    ],
+  },
+  {
+    id: 7,
+    tabPane: [
+      {
+        icon: <BarChart />,
+        title: 'Extrasmart',
       },
     ],
     tabContent: [
@@ -137,7 +171,7 @@ export default Dashboard;
 
 const styles = {
   section: {
-    backgroundColor: '#353448',
+    backgroundColor: '#009688',
     pt: [9, null, null, 11, 10, 12, null],
     pb: [9, null, null, null, 0],
   },

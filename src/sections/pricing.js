@@ -5,18 +5,23 @@ import { jsx, Box, Grid, Container, Flex, Text, Button } from 'theme-ui';
 import SectionHeading from 'components/section-heading';
 import PriceTable from 'components/cards/price-table';
 import Switch from 'components/switch';
+import { Link } from 'components/link';
+
 
 const data = [
   {
     id: 1,
-    title: 'Pacote de startup',
+    title: 'Extrawealth Membership',
     subtitle: 'Para a equipe de startup que trabalha com a nova pilha de dados central',
+   
     amount: {
       monthly: 25.99,
       annual: 25.99 * 12 - 10,
     },
     isRecommended: false,
-    buttonText: 'Comece o teste grátis',
+    buttonText: 'Subscribe Now',
+ 
+    
     features: [
       {
         id: 1,
@@ -47,14 +52,14 @@ const data = [
   },
   {
     id: 2,
-    title: 'Pacote Premium',
+    title: 'Extracredit Membership',
     subtitle: 'Para os usuários Pro que trabalham com stacks moderna',
     amount: {
       monthly: 49.99,
       annual: 49.99 * 12 - 10,
     },
     isRecommended: true,
-    buttonText: 'Comece o teste grátis',
+    buttonText: 'Subscribe Now',
     features: [
       {
         id: 1,
@@ -83,6 +88,44 @@ const data = [
       },
     ],
   },
+  // {
+  //   id: 3,
+  //   title: 'Extracredit Membership',
+  //   subtitle: 'Para os usuários Pro que trabalham com stacks moderna',
+  //   amount: {
+  //     monthly: 49.99,
+  //     annual: 49.99 * 12 - 10,
+  //   },
+  //   isRecommended: true,
+  //   buttonText: 'Comece o teste grátis',
+  //   features: [
+  //     {
+  //       id: 1,
+  //       isAvailable: true,
+  //       title: 'Acesso final a todos os cursos, exercícios e avaliações',
+  //     },
+  //     {
+  //       id: 2,
+  //       isAvailable: true,
+  //       title: `Acesso gratuito para todo tipo de correções de exercícios com downloads.`,
+  //     },
+  //     {
+  //       id: 3,
+  //       isAvailable: true,
+  //       title: `Total assessment corrections with free download access system`,
+  //     },
+  //     {
+  //       id: 4,
+  //       isAvailable: true,
+  //       title: `Download ilimitado de cursos no conteúdo do aplicativo móvel`,
+  //     },
+  //     {
+  //       id: 5,
+  //       isAvailable: true,
+  //       title: `Baixe e imprima cursos e exercícios em PDF`,
+  //     },
+  //   ],
+  // },
 ];
 
 const Pricing = () => {
@@ -97,16 +140,19 @@ const Pricing = () => {
       <Container>
         <SectionHeading
           sx={styles.heading}
-          title="Que negócio combina perfeitamente com você"
-          description="Conheça nossos planos"
+          title="What business suits you perfectly"
+          description="Discover our Membership plans"
         />
-        <Flex sx={styles.priceSwitcher}>
-          <Text as="span">Plano Mensal</Text>
+        {/* <Flex sx={styles.priceSwitcher}>
+          <Text as="span">Extracoop Plan</Text>
           <Switch isMonthly={isMonthly} handlePlan={handlePlan} />
-          <Text as="span">Plano Anual</Text>
-        </Flex>
+          <Text as="span">Closa</Text>
+        </Flex> */}
+        <Link path="/payment">
         <Box sx={styles.priceWrapper}>
+          <Box sx={styles.priceWrapper}>
           {data?.map((price, index) => (
+            
             <PriceTable
               price={price}
               isAnnual={!isMonthly}
@@ -114,6 +160,9 @@ const Pricing = () => {
             />
           ))}
         </Box>
+        </Box>
+        </Link>
+        
       </Container>
     </Box>
   );

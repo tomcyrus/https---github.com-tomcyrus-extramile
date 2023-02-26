@@ -8,23 +8,14 @@ const data = [
   {
     id: 1,
     icon: support,
-    title: 'How it works',
-    description: `Our passion is to connect small businesses in Africa with seamless and alternative finance- credit-on-the-go 
-    infrastructure (stocks, inputs, solar-power, healthcare products) rotating credit lines and working capital faster, all to 
-    boost their productivity, business and profit in a seamless way. `,
+    title: 'Contact Number / Whataspp',
+    description: `+234 8036028454 `,
   },
   {
     id: 2,
     icon: support,
-    title: 'To our Users',
-    description: `Our life’s work is to help Africa lastmiles, underserved, micro enterprises and Smallholder farmers improve their lives, help them make more 
-    profit through innovating Commerce & Credit products offerings that are market-fit and will cater for their everyday needs.`,
-  },
-  {
-    id: 3,
-    icon: support,
-    title: 'To our Investors',
-    description: `Our focus is on delivering mutual benefit: Win-win outcomes that make life better for customers and investors alike when you partner with us. `,
+    title: 'Email Address',
+    description: `extramilea@africa`,
   },
 ];
 
@@ -40,7 +31,7 @@ const Support = () => {
               </Flex>
               <Box sx={styles.content}>
                 <Heading>
-                  {item?.title} <Image src={rightArrow} alt="rightArrow" />
+                  {item?.title} 
                 </Heading>
                 <Text as="p">{item?.description}</Text>
               </Box>
