@@ -1,25 +1,27 @@
 /** @jsx jsx */
-import { jsx, Box, Flex, Container, Heading, Text } from 'theme-ui';
+import { jsx, Box, Flex, Container, Heading, Text, Button, Label } from 'theme-ui';
 import { rgba } from 'polished';
 import Image from 'components/image';
 import SubscriptionForm from 'components/subscription-form';
 import illustration from 'assets/images/banner.png';
-import paypal from 'assets/images/paypal.png';
-import google from 'assets/images/google.png';
-import dropbox from 'assets/images/dropbox.png';
+import eflna from 'assets/images/ban1.png';
+import tef from 'assets/images/ban2.png';
+import zenith from 'assets/images/ban3.png';
+import { Link } from 'components/link';
+
 
 const logos = [
   {
-    name: 'Paypal',
-    src: paypal,
+    name: 'eflna',
+    src: eflna,
   },
   {
-    name: 'Google',
-    src: google,
+    name: 'tef',
+    src: tef,
   },
   {
-    name: 'Dropboxs',
-    src: dropbox,
+    name: 'zenith',
+    src: zenith,
   },
 ];
 
@@ -30,16 +32,21 @@ const Banner = () => {
         <Box sx={styles.contentWrapper}>
           <Box sx={styles.bannerContent}>
             <Heading as="h1">
-              Sistema de suporte final para agências líderes
+            ExtramileAfrica
             </Heading>
             <Text as="p">
-              Obtenha seus testes entregues em casa coletar amostra do
-              vitória das gestões que fornecem melhor sistema de design
-              diretrizes de sempre.
+            Financial inclusion and wellness for shared-prosperity, cooperative growth, healthy living and everyday 
+            essentials with lots of seamless access to credit-on-the-go solutions
+            <br></br>
+            Extramile Africa is your hybrid cooperative plugin to access everyday products and services on credit.
             </Text>
-            <SubscriptionForm sx={styles.subscriptionForm} />
+            <br></br>
+            <Link path="">
+            <Button >Get Started</Button>
+            </Link>
+            {/* <SubscriptionForm sx={styles.subscriptionForm} /> */}
             <Flex sx={styles.sponsoredBy}>
-              <Text as="span">Patrocinado por:</Text>
+              <Text as="span">Partners:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Text>
               <Flex sx={styles.sponsor}>
                 {logos?.map((logo, index) => (
                   <Flex as="figure" key={index}>
@@ -62,7 +69,7 @@ export default Banner;
 
 const styles = {
   section: {
-    backgroundColor: '#FFFCF7',
+    backgroundColor: '#a5d6a73b',
     pt: [14, null, null, null, null, 0],
     pb: [6, null, null, 7, 11, 0],
   },
