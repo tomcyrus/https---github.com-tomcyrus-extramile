@@ -1,11 +1,13 @@
 /** @jsx jsx */
-import { jsx, Box, Container, Grid,Button,Text } from 'theme-ui';
+import { jsx, Box, Container, Flex, Grid,Button,Text } from 'theme-ui';
 import SectionHeading from 'components/section-heading';
 import Accordion from 'components/accordion/accordion';
 import Image from 'components/image';
 import faq from 'assets/images/faq.webp';
 import { LearnMore } from 'components/link';
 import emoji from 'assets/images/icons/emoji.png';
+import app from 'assets/images/shop.png';
+import check from 'assets/images/icons/check-circle.png';
 import { Link } from 'components/link';
 // import {Motion, spring} from 'react-motion';
 // import ReactWhatsapp from 'react-whatsapp';
@@ -63,7 +65,7 @@ const PremiumFeature = () => {
             <SectionHeading
               // emoji={emoji}
               sx={styles.heading}
-              title="FAQ"
+              title="Extracoop"
              
             />
             <Box sx={styles.accordionGroup}>
@@ -72,6 +74,32 @@ const PremiumFeature = () => {
             <br></br> 
             
           </Box>
+               
+ 
+        </Grid>  
+
+        <Grid sx={styles.grid}>
+          <Box sx={styles.rightContent}>
+            <SectionHeading
+              emoji={emoji}
+              sx={styles.heading}
+              title="ExtraStore and drives"
+              description="ExtraStore powers and drives discounted prices and pay as you go (we partner with small businesses to deliver pay as you go services to our buyers). We snap products and put our prices on them. (Under Extrastore, we have categories;"
+            />
+           
+
+            <Box sx={styles.features}>
+          
+            </Box>
+            
+           <br></br>
+           {/* <LearnMore label="Learn more" path="#!" /> */}
+          </Box>
+          <Box sx={styles.illustration}>
+            <Image src={app} alt="workHard" />
+          </Box>
+          <br></br>
+        </Grid>  
           <SectionHeading
           sx={styles.heading}
           title="Join REAP by Extramile Africa and make yourself some millions..."
@@ -79,25 +107,13 @@ const PremiumFeature = () => {
           How you can earn 100k-1m REAP with no money paid. We have built a leverage for you in Extramile Africa, so co-create wealth with us. 
           Promote our products on Extrastore in whatsoever categories you love to push. Extramile Homes and Properties, ExtraB-support, ExtraCoop,
              Extra-digital courses, and earn in millions."
-        />
-        <center>
-       
-            <a href="https://api.whatsapp.com/send?phone=+2348139416901">
-            <Button >Join REAP </Button>
-            </a>
-            
-            </center>
+        />  
           
-           
-    {/* <Motion defaultStyle={{x: 0}} style={{x: spring(10111)}}>
-      {value => <div>{value.x}</div>}
-    </Motion> */}
-        </Grid>
-       
       </Container>
-      
-
     </section>
+
+
+
   
     
   );
