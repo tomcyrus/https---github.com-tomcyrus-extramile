@@ -79,9 +79,9 @@ const PremiumFeature = () => {
           </Box>
           <SectionHeading
           sx={styles.heading}
-          title="Join ExtraWealth Today"
-          description="Joining ExtraCoop will also gives you the ample opportunity to partner and collaborate with us 
-          and earn 5% ROI on your money every 3months for 2years."
+          title="Extrawealth Access"
+          description="With 50,000 naira and above (no limit), you become an automatic partner and collaborate with Extramile Africa after you must have joined ExtraCoop. On your contributions, you will be getting 5% every 3months or 25% ROI in a year if you like.  
+          Check out our 5-Sigma Business Portfolios (Extramile Homes and Properties, Extrafarm- farming, Extrafarm- supply chain, Extraride, Extracredit offers- asset financing)."
         />
         </Grid>
        
