@@ -54,7 +54,7 @@ const data = [
       annual: 49.99 * 12 - 10,
     },
     isRecommended: true,
-    buttonText: 'Comece o teste grátis',
+    buttonText: 'Comece o teste grátissss',
     features: [
       {
         id: 1,
