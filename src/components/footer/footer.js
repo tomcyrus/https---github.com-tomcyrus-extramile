@@ -1,28 +1,31 @@
 /** @jsx jsx */
 import { jsx, Flex, Box, Text, Container } from 'theme-ui';
-import { rgba } from 'polished';
+import { position, rgba } from 'polished';
 import { Link } from 'components/link';
 import Logo from 'components/logo';
+// import WhatsAppButton from './whatsapp';
+
+import { FloatingWhatsApp } from 'react-floating-whatsapp'
 
 const menuItems = [
   {
-    path: '#home',
+    path: '/',
     label: 'Home',
   },
   {
-    path: '#advertise',
-    label: 'Anunciar',
+    path: '/contact',
+    label: 'Contact',
   },
+  // {
+  //   path: '#supports',
+  //   label: 'Suporte',
+  // },
+  // {
+  //   path: 'Abou',
+  //   label: 'Academy',
+  // },
   {
-    path: '#supports',
-    label: 'Suporte',
-  },
-  {
-    path: '#marketing',
-    label: 'Marketing',
-  },
-  {
-    path: '#faq',
+    path: '/faqs',
     label: 'FAQ',
   },
 ];
@@ -30,12 +33,29 @@ const menuItems = [
 export default function Footer() {
   return (
     <Box as="footer" sx={styles.footer}>
+     <FloatingWhatsApp
+        phoneNumber="1234567890"
+        accountName="Extramile Africa"
+        avatar="https://home.extramileafrica.com/wp-content/uploads/2021/09/cropped-cropped-08634e6b-87fd-439a-8005-744957d532e5-1-54x49.jpg"
+        chatMessage="Hello how can we help you!"
+        allowEsc
+        // allowClickAway
+        notification
+        notificationSound
+        styles={{
+          backgroundColor: 'green',
+          color: 'white',
+          icon: 'fab fa-whatsapp',
+          size: '60px',
+          position:'right'
+        }}
+      />
       <Container>
         <Flex sx={styles.footerInner}>
           <Flex sx={styles.copyright}>
             <Logo isWhite />
             <Text as="span">
-              &copy; Copyright by {new Date().getFullYear()} RedQ, Inc
+              &copy; Copyright by {new Date().getFullYear()} ExtramileAfrica
             </Text>
           </Flex>
           <Flex as="ul" sx={styles.footerNav}>
@@ -45,13 +65,20 @@ export default function Footer() {
               </li>
             ))}
           </Flex>
+         
         </Flex>
       </Container>
+      
     </Box>
+    
+    
   );
+  
 }
 
 const styles = {
+
+
   footer: {
     backgroundColor: '#2B293E',
     pt: [6],
