@@ -139,8 +139,8 @@ const Testimonials = () => {
       <Container>
         <SectionHeading
           sx={styles.heading}
-          title="O que o cliente fala sobre nós"
-          description="Depoimento de cliente"
+          title="What the customer says about us"
+          description="customer testimonial"
         />
       </Container>
       <Swiper sx={styles.carousel} {...options}>

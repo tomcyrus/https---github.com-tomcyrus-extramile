@@ -10,8 +10,8 @@ const Subscribe = () => {
       <Container>
         <SectionHeading
           sx={styles.heading}
-          title="Inscreva-se para ser notificado sobre a atualização"
-          description="Ao se inscrever com seu e-mail, você aceitará nossa política de privacidade"
+          title="Sign up to be notified of the update"
+          description="By signing up with your email you accept our privacy policy"
         />
         <SubscriptionForm sx={styles.subscriptionForm} />
       </Container>

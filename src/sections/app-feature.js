@@ -50,8 +50,7 @@ const AppFeature = () => {
               description="On Extrastore, you have access to non-consumable products and value-added services on our catalogs on credit (Access Now Pay Later),
                fill a simple form and a customer relationship rep will jump on a call with you to deliver your orders. Here, you can either pay at once to enjoy
                 discounted or jump on our exciting value-added services of Save Now Buy Later and unlock our 20% cashback on your purchase(you don't need to be a
-                 member of ExtraCoop if you are paying at once) or pay on instalment after paying 30% initial payment. (Categories of products on Extrastore include : "
-            />
+                 member of ExtraCoop if you are paying at once) or pay on instalment after paying 30% initial payment. (Categories of products on Extrastore include : " />
            
 
             <Box sx={styles.features}>
