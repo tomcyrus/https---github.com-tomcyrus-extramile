@@ -17,9 +17,9 @@ const SubscriptionForm = ({ buttonLabel, ...props }) => {
       <Input
         type="email"
         id={`email-${id}`}
-        placeholder="Insira o Endereço de Email"
+        placeholder="Enter Email Address"
       />
-      <Button>{buttonLabel ?? 'Iniciar'}</Button>
+      <Button>{buttonLabel ?? 'Start'}</Button>
     </Flex>
   );
 };

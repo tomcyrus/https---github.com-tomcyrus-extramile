@@ -1,5 +1,5 @@
 /** @jsx jsx */
-import { jsx, Box, Grid, Flex, Container, Image, Text } from 'theme-ui';
+import { jsx, Box, Grid, Flex, Container,Button, Image, Text } from 'theme-ui';
 import SectionHeading from 'components/section-heading';
 import { LearnMore } from 'components/link';
 import app from 'assets/images/shop.png';
@@ -46,9 +46,11 @@ const AppFeature = () => {
             <SectionHeading
               emoji={emoji}
               sx={styles.heading}
-              title="ExtraStore and drives"
-              description="ExtraStore powers and drives discounted prices and pay as you go (we partner with small businesses to deliver pay as you go services to our buyers). We snap products and put our prices on them. (Under Extrastore, we have categories;"
-            />
+              title="ExtraStore Access"
+              description="On Extrastore, you have access to non-consumable products and value-added services on our catalogs on credit (Access Now Pay Later),
+               fill a simple form and a customer relationship rep will jump on a call with you to deliver your orders. Here, you can either pay at once to enjoy
+                discounted or jump on our exciting value-added services of Save Now Buy Later and unlock our 20% cashback on your purchase(you don't need to be a
+                 member of ExtraCoop if you are paying at once) or pay on instalment after paying 30% initial payment. (Categories of products on Extrastore include : " />
            
 
             <Box sx={styles.features}>
@@ -64,8 +66,11 @@ const AppFeature = () => {
             <Text as="p">
             Buy anything on credit and jump on our pay as you go plan.
             </Text>
-           <br></br>
-           <LearnMore label="Learn more" path="#!" />
+           <br></br> 
+           <a href="https://www.closa.extramile.africa/store">
+            <Button >Extrastore</Button>
+            </a>
+            <br></br>
           </Box>
           <Box sx={styles.illustration}>
             <Image src={app} alt="workHard" />

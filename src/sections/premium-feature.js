@@ -24,26 +24,24 @@ const data = [
     ),
   },
   {
-    title: 'Extracredit- save and access upto X3 of your saving instantly',
+    title: 'Extracredit Access',
     contents: (
       <div>
-        Credit-on-the-go and pay-as-you-stock bit-by-bit for micro-enterprises within the informal market (mom & pop stores, 
-        retail shops, input and commodities suppliers, POS centers etc).
+        <b>A.</b> Access upto X3 credit (loans) on your savings in 3months- with Extracredit, you can do flexible savings for 3months and get upto X3 credit facilities on your savings.
         <br></br>
-        If you own a small business, we don’t want you to close down your business again to go and queue at banks for loans or 
-        run out-of-cash to restock- access our;
-        Credit-on-the-go | Pay-as-you-stock | Pay back bit-by-bit.
+       <b> B.</b> Access Now Pay Later- You pay just 30% on any of the products you pick from any supplier or buy on our marketplace- Extrastore by Extramile Africa, and you spread your payment accordingly with 6-12months depending on your plan
         <br></br>
         <LearnMore label="Learn more" path="/extracoop" />
       </div>
     ),
   },
   {
-    title: `Extrawealth- partner and collaborate with Extramile Africa to co-share Wealth`,
+    title: `Extrawealth Access`,
     contents: (
       <div>
-        Obtenha seus exames de sangue entregues em vamos coletar uma amostra da vitória de
-        os gerentes que fornecem as melhores diretrizes de sistema de design de todos os tempos.
+        With 50,000 naira and above (no limit), you become an automatic partner and collaborate with Extramile Africa after you must have joined ExtraCoop. 
+        On your contributions, you will be getting 5% every 3months or 25% ROI in a year if you like.  Check out our 5-Sigma Business Portfolios 
+        (Extramile Homes and Properties, Extrafarm- farming, Extrafarm- supply chain, Extraride, Extracredit offers- asset financing).
         <br></br>
         <LearnMore label="Learn more" path="/extracoop" />
       </div>
@@ -77,12 +75,12 @@ const PremiumFeature = () => {
             </Link>
             </center>
           </Box>
-          <SectionHeading
+          {/* <SectionHeading
           sx={styles.heading}
-          title="Join ExtraWealth Today"
-          description="Joining ExtraCoop will also gives you the ample opportunity to partner and collaborate with us 
-          and earn 5% ROI on your money every 3months for 2years."
-        />
+          title="Extrawealth Access"
+          description="With 50,000 naira and above (no limit), you become an automatic partner and collaborate with Extramile Africa after you must have joined ExtraCoop. On your contributions, you will be getting 5% every 3months or 25% ROI in a year if you like.  
+          Check out our 5-Sigma Business Portfolios (Extramile Homes and Properties, Extrafarm- farming, Extrafarm- supply chain, Extraride, Extracredit offers- asset financing)."
+        /> */}
         </Grid>
        
       </Container>

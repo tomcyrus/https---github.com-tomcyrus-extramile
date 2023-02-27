@@ -139,7 +139,7 @@ const Pricing = () => {
        
            <Heading> <Image src={rightArrow} alt="rightArrow" />
                 </Heading>
-       <a href="https://api.whatsapp.com/send?phone=+2348139416901">
+       <a href="https://api.whatsapp.com/send?phone=+2348036028454">
        <Button  >Confirm Payment</Button>
        </a>
        </Grid>
@@ -149,15 +149,15 @@ const Pricing = () => {
        <br></br>
 <center>
   <Grid sx={styles.grid2}>
-  <a href="https://api.whatsapp.com/send?phone=+2348139416901">
+  <a href="https://api.whatsapp.com/send?phone=+2348036028454">
    <Button > Extrawealth </Button>
    </a>
    
-   <a href="https://api.whatsapp.com/send?phone=+2348139416901"> 
+   <a href="https://api.whatsapp.com/send?phone=+2348036028454"> 
   <Button >Extracredit</Button> 
   </a>
  
-  <a href="/store">
+  <a href="https://www.closa.extramile.africa/store">
   <Button  >Extrastore </Button>
   </a> 
   </Grid>

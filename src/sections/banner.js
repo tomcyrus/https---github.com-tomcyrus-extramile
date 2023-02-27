@@ -41,7 +41,7 @@ const Banner = () => {
             Extramile Africa is your hybrid cooperative plugin to access everyday products and services on credit.
             </Text>
             <br></br>
-            <Link path="">
+            <Link path="/extracoop">
             <Button >Get Started</Button>
             </Link>
             {/* <SubscriptionForm sx={styles.subscriptionForm} /> */}
