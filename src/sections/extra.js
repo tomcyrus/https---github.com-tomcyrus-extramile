@@ -108,7 +108,9 @@ const PremiumFeature = () => {
           Promote our products on Extrastore in whatsoever categories you love to push. Extramile Homes and Properties, ExtraB-support, ExtraCoop,
              Extra-digital courses, and earn in millions."
         />  
-          
+{/* <center>
+
+</center>        */}
       </Container>
     </section>
 
