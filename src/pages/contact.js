@@ -12,8 +12,8 @@ export default function IndexPage() {
     <ThemeProvider theme={theme}>
       <Layout>
         <SEO
-          title="Startup Agency Alpha Landing"
-          description="Coleção de modelos de landings gratuitos de topo de linha, criados com o react / next js. Gratuito para baixar, basta editar e implantar!"
+          title="Extramile Africa"
+          description="Extramile Africa is your hybrid cooperative plugin to access everyday products and services on credit."
         />
         <Contact />
         

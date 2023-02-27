@@ -1,5 +1,5 @@
 module.exports = {
-  siteUrl: 'https://startup-agency-alpha.vercel.app',
+  siteUrl: 'https://extramile.africa',
   generateRobotsTxt: true,
   // optional
   // robotsTxtOptions: {

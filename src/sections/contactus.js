@@ -9,7 +9,7 @@ const data = [
     id: 1,
     icon: support,
     title: 'Contact Number / Whataspp',
-    description: `+234 8036028454 `,
+    description: `+2348036028454 `,
   },
   {
     id: 2,
