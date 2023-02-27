@@ -34,7 +34,7 @@ export default function Footer() {
   return (
     <Box as="footer" sx={styles.footer}>
      <FloatingWhatsApp
-        phoneNumber="1234567890"
+        phoneNumber="+2348036028454"
         accountName="Extramile Africa"
         avatar="https://home.extramileafrica.com/wp-content/uploads/2021/09/cropped-cropped-08634e6b-87fd-439a-8005-744957d532e5-1-54x49.jpg"
         chatMessage="Hello how can we help you!"

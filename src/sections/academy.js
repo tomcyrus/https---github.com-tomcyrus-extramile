@@ -32,7 +32,8 @@ const Academy = () => {
       <Container>
         <Grid sx={styles.grid}>
           <Box as="figure" sx={styles.illustration}>
-            <Image src={messenger} alt="messenger" />
+            {/* <Image src={messenger} alt="messenger" /> */}
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/zzC9YhYbUX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
           </Box>
           <Box sx={styles.rightContent}>
             <SectionHeading
@@ -59,6 +60,10 @@ const Academy = () => {
         Join us and earn passive income."
           
         />
+        <Box as="figure" sx={styles.illustration}>
+            {/* <Image src={messenger} alt="messenger" /> */}
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/zzC9YhYbUX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </Box>
         
         </Grid>
         <center>
