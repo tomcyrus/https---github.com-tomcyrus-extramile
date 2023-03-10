@@ -26,6 +26,12 @@ const data = [
     title: 'To our Investors',
     description: `Our focus is on delivering mutual benefit: Win-win outcomes that make life better for customers and investors alike when you partner with us. `,
   },
+  {
+    id: 3,
+    icon: support,
+    title: 'To our Investors',
+    description: `Our focus is on delivering mutual benefit: Win-win outcomes that make life better for customers and investors alike when you partner with us. `,
+  },
 ];
 
 const Support = () => {
@@ -39,9 +45,9 @@ const Support = () => {
                 <Image src={item?.icon} alt={item?.title} />
               </Flex>
               <Box sx={styles.content}>
-                <Heading>
+                {/* <Heading>
                   {item?.title} <Image src={rightArrow} alt="rightArrow" />
-                </Heading>
+                </Heading> */}
                 <Text as="p">{item?.description}</Text>
               </Box>
             </Flex>

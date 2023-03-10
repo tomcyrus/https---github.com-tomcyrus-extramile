@@ -33,8 +33,9 @@ const Academy = () => {
         <Grid sx={styles.grid}>
           <Box as="figure" sx={styles.illustration}>
             {/* <Image src={messenger} alt="messenger" /> */}
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/zzC9YhYbUX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="320" height="315" src="https://www.youtube.com/embed/zzC9YhYbUX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
           </Box>
+          
           <Box sx={styles.rightContent}>
             <SectionHeading
             //   emoji={emoji}
@@ -42,6 +43,7 @@ const Academy = () => {
               title="Extramile Business Development Academy"
               description="With Extramile Africa, it is all about giving you seamless digital financial inclusion Access to transmit you from Little to More... "
             />
+            
             <Box sx={styles.accordionGroup}>
               <Accordion items={data} />
             </Box>
@@ -62,7 +64,7 @@ const Academy = () => {
         />
         <Box as="figure" sx={styles.illustration}>
             {/* <Image src={messenger} alt="messenger" /> */}
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/zzC9YhYbUX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="320" height="315" src="https://www.youtube.com/embed/zzC9YhYbUX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
           </Box>
         
         </Grid>

@@ -27,26 +27,27 @@ const data = [
     title: 'Extracredit Access',
     contents: (
       <div>
-        <b>A.</b> Access upto X3 credit (loans) on your savings in 3months- with Extracredit, you can do flexible savings for 3months and get upto X3 credit facilities on your savings.
+        <b>A.</b>Access Now Pay Later- You pay just 30% on any of the products you pick from any supplier or buy on our marketplace- Extrastore by Extramile Africa, and you spread your payment accordingly with 6-12months depending on your plan
+         
         <br></br>
-       <b> B.</b> Access Now Pay Later- You pay just 30% on any of the products you pick from any supplier or buy on our marketplace- Extrastore by Extramile Africa, and you spread your payment accordingly with 6-12months depending on your plan
-        <br></br>
-        <LearnMore label="Learn more" path="/extracoop" />
-      </div>
-    ),
-  },
-  {
-    title: `Extrawealth Access`,
-    contents: (
-      <div>
-        With 50,000 naira and above (no limit), you become an automatic partner and collaborate with Extramile Africa after you must have joined ExtraCoop. 
-        On your contributions, you will be getting 5% every 3months or 25% ROI in a year if you like.  Check out our 5-Sigma Business Portfolios 
-        (Extramile Homes and Properties, Extrafarm- farming, Extrafarm- supply chain, Extraride, Extracredit offers- asset financing).
+       <b> B.</b> Access upto X3 credit (loans) on your savings in 3months- with Extracredit, you can do flexible savings for 3months and get upto X3 credit facilities on your savings.
         <br></br>
         <LearnMore label="Learn more" path="/extracoop" />
       </div>
     ),
   },
+  // {
+  //   title: `Extrawealth Access`,
+  //   contents: (
+  //     <div>
+  //       With 50,000 naira and above (no limit), you become an automatic partner and collaborate with Extramile Africa after you must have joined ExtraCoop. 
+  //       On your contributions, you will be getting 5% every 3months or 25% ROI in a year if you like.  Check out our 5-Sigma Business Portfolios 
+  //       (Extramile Homes and Properties, Extrafarm- farming, Extrafarm- supply chain, Extraride, Extracredit offers- asset financing).
+  //       <br></br>
+  //       <LearnMore label="Learn more" path="/extracoop" />
+  //     </div>
+  //   ),
+  // },
 ];
 
 const PremiumFeature = () => {

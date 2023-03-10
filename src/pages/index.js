@@ -1,8 +1,6 @@
 import React from 'react';
-
 import { ThemeProvider } from 'theme-ui';
 import theme from 'theme';
-
 import SEO from 'components/seo';
 import Layout from 'components/layout';
 import Banner from 'sections/banner';
@@ -15,6 +13,7 @@ import Testimonials from 'sections/testimonials';
 import Subscribe from 'sections/subscribe';
 import Academy from 'sections/academy';
 
+
 export default function IndexPage() {
   return (
     <ThemeProvider theme={theme}>
@@ -24,6 +23,9 @@ export default function IndexPage() {
           description="Financial inclusion and wellness for shared-prosperity, cooperative growth, healthy living and everyday essentials with lots of seamless access to credit-on-the-go solutions"
         />
         <Banner />
+
+       
+
         <Support />
         <PremiumFeature />
         <AppFeature />

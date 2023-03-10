@@ -132,6 +132,9 @@ const Pricing = () => {
       </Container>
     </Box>
 </center>
+<center>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSemykGl_EulPywh1jaB7if0FcojD5gu6Y3INftOXAjvNQQmCQ/viewform?embedded=true" width="380" height="1750" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+</center>
  <center>
        
        <Text as="p">Send Payment Proof</Text>
