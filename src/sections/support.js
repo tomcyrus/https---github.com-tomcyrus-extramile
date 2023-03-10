@@ -26,6 +26,12 @@ const data = [
     title: 'To our Investors',
     description: `Our focus is on delivering mutual benefit: Win-win outcomes that make life better for customers and investors alike when you partner with us. `,
   },
+  {
+    id: 3,
+    icon: support,
+    title: 'To our Investors',
+    description: `Our focus is on delivering mutual benefit: Win-win outcomes that make life better for customers and investors alike when you partner with us. `,
+  },
 ];
 
 const Support = () => {
