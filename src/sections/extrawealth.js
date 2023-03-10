@@ -26,19 +26,14 @@ const data = [
   
 ];
 
-const Academy = () => {
+const Extrawealth = () => {
   return (
     <section id="features" sx={styles.section}>
       <Container>
-      <SectionHeading
-          sx={styles.heading}
-          title="Value Added Services (VAS)"
-          // description="Discover our Membership plans"
-        />
         <Grid sx={styles.grid}>
           <Box as="figure" sx={styles.illustration}>
-            {/* <Image src={messenger} alt="messenger" /> */}
-            <iframe width="320" height="315" src="https://www.youtube.com/embed/zzC9YhYbUX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <Image src={messenger} alt="messenger" />
+           
           </Box>
           
           <Box sx={styles.rightContent}>
@@ -50,7 +45,7 @@ const Academy = () => {
             />
             
             <Box sx={styles.accordionGroup}>
-              <Accordion items={data} />
+              {/* <Accordion items={data} /> */}
             </Box>
             <br></br> 
             <center>
@@ -59,32 +54,17 @@ const Academy = () => {
             </Link>
             </center>
           </Box>
-          <SectionHeading
-          sx={styles.heading}
-          title="Get Free Access to our Community- Closer by Extramile Africa"
-          description="Join our community of Closer by Extramile Africa today and start earning money with us
-          Extramile Africa leverage on the power of our community to drive repeated growth via referrals, distribution channels and Affiliate Partners and associates. 
-        Join us and earn passive income."
           
-        />
-        <Box as="figure" sx={styles.illustration}>
-            <Image src={messenger} alt="messenger" />
-            {/* <iframe width="320" height="315" src="https://www.youtube.com/embed/zzC9YhYbUX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
-          </Box>
         
         </Grid>
-        <center>
-            <a href="https://www.closa.extramile.africa">
-            <Button >Join Closer</Button>
-            </a>
-            </center>
+       
       </Container>
       
     </section>
   );
 };
 
-export default Academy;
+export default Extrawealth;
 
 const styles = {
   section: {

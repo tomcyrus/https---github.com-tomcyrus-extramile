@@ -26,39 +26,12 @@ const data = [
   
 ];
 
-const Academy = () => {
+const Community = () => {
   return (
     <section id="features" sx={styles.section}>
       <Container>
-      <SectionHeading
-          sx={styles.heading}
-          title="Value Added Services (VAS)"
-          // description="Discover our Membership plans"
-        />
         <Grid sx={styles.grid}>
-          <Box as="figure" sx={styles.illustration}>
-            {/* <Image src={messenger} alt="messenger" /> */}
-            <iframe width="320" height="315" src="https://www.youtube.com/embed/zzC9YhYbUX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-          </Box>
           
-          <Box sx={styles.rightContent}>
-            <SectionHeading
-            //   emoji={emoji}
-              sx={styles.heading}
-              title="Extramile Business Development Academy"
-              description="With Extramile Africa, it is all about giving you seamless digital financial inclusion Access to transmit you from Little to More... "
-            />
-            
-            <Box sx={styles.accordionGroup}>
-              <Accordion items={data} />
-            </Box>
-            <br></br> 
-            <center>
-            <Link path="/go">
-            <Button >Join Now</Button>
-            </Link>
-            </center>
-          </Box>
           <SectionHeading
           sx={styles.heading}
           title="Get Free Access to our Community- Closer by Extramile Africa"
@@ -84,7 +57,7 @@ const Academy = () => {
   );
 };
 
-export default Academy;
+export default Community;
 
 const styles = {
   section: {

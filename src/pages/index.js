@@ -12,6 +12,8 @@ import Pricing from 'sections/pricing';
 import Testimonials from 'sections/testimonials';
 import Subscribe from 'sections/subscribe';
 import Academy from 'sections/academy';
+import Extrawealth from 'sections/extrawealth';
+import Community from 'sections/community';
 
 
 export default function IndexPage() {
@@ -31,7 +33,9 @@ export default function IndexPage() {
         <AppFeature />
         <Dashboard />
         <Academy />
+        <Extrawealth />
         <Pricing />
+        <Community />
         <Testimonials />
         <Subscribe />
       </Layout>

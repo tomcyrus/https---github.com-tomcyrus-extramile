@@ -64,7 +64,8 @@ const PremiumFeature = () => {
               sx={styles.heading}
               title="Extramile Africa everyday products and services"
               description="Extramile Africa has pivoted into a new faze in our advocacy; building Africa #1 alternative credit infrastructure and credit scores 
-              for the underserved and lastmiles left in the cold for years. "
+              for the underserved and lastmiles left in the cold for years.
+              Access Now Pay Later "
             />
             <Box sx={styles.accordionGroup}>
               <Accordion items={data} />
