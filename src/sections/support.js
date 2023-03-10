@@ -45,9 +45,9 @@ const Support = () => {
                 <Image src={item?.icon} alt={item?.title} />
               </Flex>
               <Box sx={styles.content}>
-                <Heading>
+                {/* <Heading>
                   {item?.title} <Image src={rightArrow} alt="rightArrow" />
-                </Heading>
+                </Heading> */}
                 <Text as="p">{item?.description}</Text>
               </Box>
             </Flex>
