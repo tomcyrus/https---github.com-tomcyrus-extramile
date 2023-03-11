@@ -50,14 +50,16 @@ const Getstarted = () => {
                 >
                     <Title
                     text={
-                        'We make it easy for tenants and landlords'
+                        'Access Now Pay Later'
                     }
                     textAlign={'start'}
                     />
                     <CustomTypography>
-                        Listing are updated continuously so you<br />
-                        won't miss out on homes that just hit<br />
-                        market until you find your perfect home.
+                    Let Extramile Africa helps you find a way to start or grow your business without taking cash loan in just 3 steps
+
+                 Don't plunge more into debts, let Extramile Africa helps you refocus how you take loans for your business or home through Access Now Pay Later on Extracredit by Extramile Africa.
+
+                    Instead of taking cash loan, Access Now Pay Later gives you seamless access to non-consumable items, assets and hired-purchase financing.
                     </CustomTypography> 
                 </Box>
 
@@ -95,14 +97,17 @@ const Getstarted = () => {
                 >
                     <Title
                     text={
-                        'Match with the best agent'
+                        'Access Now Pay Later'
                         
                     }
                     textAlign={'start'}
                     />
                     <CustomTypography>
-                        Our verified partner Agents are local experts who<br /> 
-                        earn an average of 4.8/5 stars from buyers and sellers.
+                    Get Access to that equipment, working tools, home and office appliances, non-consumable and tangible items, make a 30% down-payment and spread the rest within 6-12months.
+
+                    With Access Now, Pay Later, you can make purchases and pay them off in installments over time, manage your cash flow more effectively. Instead of having to pay for everything upfront, spread out your payments over several months. 
+
+                    Extramile Africa 'Access Now Pay' Later make it easier to budget and ensure that you have enough money to cover all of your other expenses.
                     </CustomTypography>
                 </Box>
             </CustomGridItem>

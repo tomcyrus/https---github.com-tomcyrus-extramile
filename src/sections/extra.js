@@ -7,6 +7,7 @@ import faq from 'assets/images/faq.webp';
 import { LearnMore } from 'components/link';
 import emoji from 'assets/images/icons/emoji.png';
 import app from 'assets/images/shop.png';
+
 import check from 'assets/images/icons/check-circle.png';
 import { Link } from 'components/link';
 // import {Motion, spring} from 'react-motion';
@@ -55,8 +56,10 @@ const App = () => (
 
 const PremiumFeature = () => {
   return (
+    
     <section id="features" sx={styles.section}>
       <Container>
+      
         <Grid sx={styles.grid}>
           <Box as="figure" sx={styles.illustration}>
             <Image src={faq} alt="faq" />

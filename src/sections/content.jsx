@@ -30,6 +30,13 @@ const Content = () => {
             px: 2,
         }}
         >
+        <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
             <Grid item xs={12} sm={12} md={5}
             component = 'section'
             >
@@ -73,7 +80,7 @@ const Content = () => {
                     justifyContent: 'center',
                     alignItems: 'center',
                     textAlign: 'center',
-                    border: '1px solid #ccc',
+                    border: '1px solid #FFC059',
                 }}>
                     <CardContent>
                         <IconButton>
@@ -105,7 +112,7 @@ const Content = () => {
                     justifyContent: 'center',
                     alignItems: 'center',
                     textAlign: 'center', 
-                    border: '1px solid #ccc'
+                    border: '1px solid #FFC059'
                 }}>
                     <CardContent>
                         <IconButton>
@@ -161,13 +168,13 @@ const Content = () => {
                     justifyContent: 'center',
                     alignItems: 'center',
                     textAlign: 'center', 
-                    border: '1px solid #ccc'
+                    border: '1px solid #FFC059'
                 }}>
                     <CardContent>
                         <IconButton>
                             <FastfoodOutlinedIcon
                             fontSize="large"
-                            color="secondary" />
+                            color="#FFC059" />
                         </IconButton>
                         <Typography 
                         variant="h5" 
@@ -193,7 +200,7 @@ const Content = () => {
                     justifyContent: 'center',
                     alignItems: 'center',
                     textAlign: 'center',                    
-                    border: '1px solid #ccc',
+                    border: '1px solid #FFC059',
                 }}
                 >
                     <CardContent>
@@ -226,7 +233,7 @@ const Content = () => {
                     justifyContent: 'center',
                     alignItems: 'center',
                     textAlign: 'center', 
-                    border: '1px solid #ccc',
+                    border: '1px solid #FFC059',
                 }}>
                     <CardContent>
                         <IconButton>
