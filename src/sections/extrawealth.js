@@ -40,8 +40,10 @@ const Extrawealth = () => {
             <SectionHeading
             //   emoji={emoji}
               sx={styles.heading}
-              title="Extramile Business Development Academy"
-              description="With Extramile Africa, it is all about giving you seamless digital financial inclusion Access to transmit you from Little to More... "
+              title="ExtraWealth"
+              description="With 50,000 naira and above (no limit), you become an automatic partner and collaborate with Extramile Africa after you must have joined ExtraCoop. 
+              On your contributions, you will be getting 5% every 3months or 25% ROI in a year if you like.  Check out our 5-Sigma Business Portfolios (Extramile Homes and Properties, 
+              Extrafarm- farming, Extrafarm- supply chain, Extraride, Extracredit offers- asset financing)."
             />
             
             <Box sx={styles.accordionGroup}>

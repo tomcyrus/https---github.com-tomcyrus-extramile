@@ -61,10 +61,9 @@ const Academy = () => {
           </Box>
           <SectionHeading
           sx={styles.heading}
-          title="Get Free Access to our Community- Closer by Extramile Africa"
-          description="Join our community of Closer by Extramile Africa today and start earning money with us
-          Extramile Africa leverage on the power of our community to drive repeated growth via referrals, distribution channels and Affiliate Partners and associates. 
-        Join us and earn passive income."
+          title="Save Now Buy Later"
+          description="Our Save Now, Buy Later product is designed to help you avoid debt and achieve your financial goals. By saving money in advance for a future purchase, you can make that purchase with confidence and without the stress of high interest rates. You also get to enjoy a wooping 20% cashback.
+          Beat inflation with Save Now, Buy Later"
           
         />
         <Box as="figure" sx={styles.illustration}>

@@ -5,33 +5,45 @@ import support from 'assets/images/support.png';
 import rightArrow from 'assets/images/icons/right-arrow.png';
 
 const data = [
+
+
+
   {
     id: 1,
     icon: support,
-    title: 'How it works',
-    description: `Our passion is to connect small businesses in Africa with seamless and alternative finance- credit-on-the-go 
-    infrastructure (stocks, inputs, solar-power, healthcare products) rotating credit lines and working capital faster, all to 
-    boost their productivity, business and profit in a seamless way. `,
+    title: 'HOW IT WORKS',
+    description: `Financial inclusion and wellness for shared-prosperity, cooperative growth, healthy living and everyday 
+    essentials with lots of seamless access to credit-on-the-go solutions. Extramile Africa is your hybrid cooperative plugin to access everyday products and services on credit  (Access Now Pay Later). `,
   },
+
+
+
+
   {
     id: 2,
     icon: support,
-    title: 'To our Users',
+    title: 'OUR PASSION',
+    description: `Our passion is to connect small businesses in Africa with seamless and alternative finance- credit-on-the-go 
+    infrastructure (stocks, inputs, solar-power, healthcare products) rotating credit lines and working capital faster, all to 
+    boost their productivity, business and profit in a seamless way.`
+  },
+
+  
+  {
+    id: 3,
+    icon: support,
+    title: 'TO OUR USERS',
     description: `Our life’s work is to help Africa lastmiles, underserved, micro enterprises and Smallholder farmers improve their lives, help them make more 
-    profit through innovating Commerce & Credit products offerings that are market-fit and will cater for their everyday needs.`,
+    profit through innovating Commerce & Credit products offerings that are market-fit and will cater for their everyday needs. `,
   },
+
   {
     id: 3,
     icon: support,
-    title: 'To our Investors',
+    title: 'TO OUR PARTNERS',
     description: `Our focus is on delivering mutual benefit: Win-win outcomes that make life better for customers and investors alike when you partner with us. `,
   },
-  {
-    id: 3,
-    icon: support,
-    title: 'To our Investors',
-    description: `Our focus is on delivering mutual benefit: Win-win outcomes that make life better for customers and investors alike when you partner with us. `,
-  },
+ 
 ];
 
 const Support = () => {
@@ -45,9 +57,10 @@ const Support = () => {
                 <Image src={item?.icon} alt={item?.title} />
               </Flex>
               <Box sx={styles.content}>
-                {/* <Heading>
-                  {item?.title} <Image src={rightArrow} alt="rightArrow" />
-                </Heading> */}
+                <Heading>
+                  {item?.title}
+                   {/* <Image src={rightArrow} alt="rightArrow" /> */}
+                </Heading>
                 <Text as="p">{item?.description}</Text>
               </Box>
             </Flex>

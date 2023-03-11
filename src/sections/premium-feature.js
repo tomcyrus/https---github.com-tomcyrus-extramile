@@ -59,14 +59,17 @@ const PremiumFeature = () => {
             <Image src={services} alt="services" />
           </Box>
           <Box sx={styles.rightContent}>
+          <Link  path="/extracoop">
             <SectionHeading
               emoji={emoji}
               sx={styles.heading}
               title="Extramile Africa everyday products and services"
               description="Extramile Africa has pivoted into a new faze in our advocacy; building Africa #1 alternative credit infrastructure and credit scores 
               for the underserved and lastmiles left in the cold for years.
-              Access Now Pay Later "
+              Access Now Pay Later
+              "
             />
+            </Link>
             <Box sx={styles.accordionGroup}>
               <Accordion items={data} />
             </Box>

@@ -16,6 +16,7 @@ import Extrawealth from 'sections/extrawealth';
 import Community from 'sections/community';
 
 
+
 export default function IndexPage() {
   return (
     <ThemeProvider theme={theme}>
@@ -25,8 +26,8 @@ export default function IndexPage() {
           description="Financial inclusion and wellness for shared-prosperity, cooperative growth, healthy living and everyday essentials with lots of seamless access to credit-on-the-go solutions"
         />
         <Banner />
-
        
+
 
         <Support />
         <PremiumFeature />

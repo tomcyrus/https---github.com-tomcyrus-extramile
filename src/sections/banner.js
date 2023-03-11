@@ -35,10 +35,7 @@ const Banner = () => {
             ExtramileAfrica
             </Heading>
             <Text as="p">
-            Financial inclusion and wellness for shared-prosperity, cooperative growth, healthy living and everyday 
-            essentials with lots of seamless access to credit-on-the-go solutions
-            <br></br>
-            Extramile Africa is your hybrid cooperative plugin to access everyday products and services on credit  <b>(Access Now Pay Later)</b>.
+            Extramile Africa offers Access Now Pay Later to help underserved consumers and MSMEs in Africa buy non-consumable items on credit, with a 30% down-payment and spread payment over a period of time.
             </Text>
             <br></br>
             <Link path="/extracoop">
