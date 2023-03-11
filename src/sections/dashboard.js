@@ -24,8 +24,8 @@ const data = [
     tabContent: [
       {
         image: dashboard,
-        title: `Recurso de primeira qualidade que melhora a classificação e o desempenho do seu site`,
-        description: `Construa um local de trabalho incrível e expanda seus negócios com a plataforma tudo-em-um da Gusto com conteúdos incríveis. Faça a entrega de seus testes em let home coletar amostras da vitória do sistema de design de suprimentos.`,
+        title: `Introducing Extrapower, an innovative power solution`,
+        description: `Take the first step towards a greener future with our solar power product. Contact us today to learn more about our innovative solution and how it can help you reduce your carbon footprint while also saving money.`,
         readMore: '#introduce-quality',
       },
     ],
@@ -41,8 +41,8 @@ const data = [
     tabContent: [
       {
         image: dashboard,
-        title: `Recurso de segunda qualidade que melhora a classificação e o desempenho do seu site`,
-        description: `Construa um local de trabalho incrível e expanda seus negócios com a plataforma tudo-em-um da Gusto com conteúdos incríveis. Faça a entrega de seus testes em let home coletar amostras da vitória do sistema de design de suprimentos.`,
+        title: `Get the support you need to scale your business above competitors`,
+        description: `We provides an extensive selection of business support services to cater to your specific needs, ranging from financial management, HR support, marketing and branding, technology solutions, and more. Our team of professionals comprises experienced and well-trained experts who are devoted to offering the highest level of support and guidance for your business.`,
         readMore: '#introduce-quality',
       },
     ],
@@ -58,8 +58,8 @@ const data = [
     tabContent: [
       {
         image: dashboard,
-        title: `Recurso de terceira qualidade que aumenta a classificação e o desempenho do seu site`,
-        description: `Construa um local de trabalho incrível e expanda seus negócios com a plataforma tudo-em-um da Gusto com conteúdos incríveis. Faça a entrega de seus testes em let home coletar amostras da vitória do sistema de design de suprimentos.`,
+        title: `Sales of farmlands, tools, agrochemicals, seeds, inputs, supply chain like palm oil`,
+        description: `Extramile specializes in providing a wide range of agricultural products and services to meet the diverse needs of our customers. Our offerings include the sales of farmlands, tools, agrochemicals, seeds, and inputs, as well as the provision of supply chain solutions for products such as palm oil.`,
         readMore: '#introduce-quality',
       },
     ],
@@ -75,8 +75,8 @@ const data = [
     tabContent: [
       {
         image: dashboard,
-        title: `Recurso de quarta qualidade que melhora a classificação e o desempenho do seu site`,
-        description: `Construa um local de trabalho incrível e expanda seus negócios com a plataforma tudo-em-um da Gusto com conteúdos incríveis. Faça a entrega de seus testes em let home coletar amostras da vitória do sistema de design de suprimentos.`,
+        title: `Have access to high-quality healthcare services, regardless of their background or income level.`,
+        description: `We provide affordable, reliable, and 24/7 healthcare services and products to our onboarded users. Checkout our vitual outlests and extrastore for our healthcare products and services for individual and family care `,
         readMore: '#introduce-quality',
       },
     ],
@@ -92,8 +92,9 @@ const data = [
     tabContent: [
       {
         image: dashboard,
-        title: `Quinto recurso de qualidade que melhora a classificação e o desempenho do seu site`,
-        description: `Construa um local de trabalho incrível e expanda seus negócios com a plataforma tudo-em-um da Gusto com conteúdos incríveis. Faça a entrega de seus testes em let home coletar amostras da vitória do sistema de design de suprimentos.`,
+        title: `Extramile Homes and Properties: Buy Now and pay small small`,
+        description: `Affordable lands and properties in high-valued locations like Ibeju-Lekki, Lagos: Extramile Homes and Properties powered by RENTALS by Extramile Africa.
+        Buy Now and pay small small`,
         readMore: '#introduce-quality',
       },
     ],
@@ -103,14 +104,14 @@ const data = [
     tabPane: [
       {
         icon: <BarChart />,
-        title: 'Extraride',
+        title: 'ExtraRide',
       },
     ],
     tabContent: [
       {
         image: dashboard,
-        title: `Quinto recurso de qualidade que melhora a classificação e o desempenho do seu site`,
-        description: `Construa um local de trabalho incrível e expanda seus negócios com a plataforma tudo-em-um da Gusto com conteúdos incríveis. Faça a entrega de seus testes em let home coletar amostras da vitória do sistema de design de suprimentos.`,
+        title: `Ride with Extraride by Extramile Africa and make a living for yourself.`,
+        description: `Extramile Africa is excited to introduce our innovative transportation service, Extraride. With Extraride, you have the opportunity to become a car owner and start your own transportation business.`,
         readMore: '#introduce-quality',
       },
     ],
@@ -120,14 +121,16 @@ const data = [
     tabPane: [
       {
         icon: <BarChart />,
-        title: 'Extrasmart',
+        title: 'ExtraUtilities',
       },
     ],
     tabContent: [
       {
         image: dashboard,
-        title: `Quinto recurso de qualidade que melhora a classificação e o desempenho do seu site`,
-        description: `Construa um local de trabalho incrível e expanda seus negócios com a plataforma tudo-em-um da Gusto com conteúdos incríveis. Faça a entrega de seus testes em let home coletar amostras da vitória do sistema de design de suprimentos.`,
+        title: `"Reliable and Efficient Utility Services for Your Comfort and Convenience"`,
+        description: `Extramile Africa, through Extrautilities, offers a wide range of utility services designed to meet the needs of residential and commercial customers. 
+        We understand that reliable and efficient utilities are essential for the comfort and convenience of our customers, which is why we are committed to providing high-quality utility 
+        services that meet their needs`,
         readMore: '#introduce-quality',
       },
     ],

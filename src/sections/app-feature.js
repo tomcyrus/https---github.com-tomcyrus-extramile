@@ -29,11 +29,11 @@ const data = [
   },
   {
     id: 6,
-    label: 'Extraride',
+    label: 'ExtraRide',
   },
   {
     id: 7,
-    label: 'Extrasmart',
+    label: 'ExtraUtilities',
   },
 ];
 
