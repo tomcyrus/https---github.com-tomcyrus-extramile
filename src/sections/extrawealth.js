@@ -51,7 +51,7 @@ const Extrawealth = () => {
             </Box>
             <br></br> 
             <center>
-            <Link path="/go">
+            <Link path="/wealth">
             <Button >Join Now</Button>
             </Link>
             </center>

@@ -73,9 +73,9 @@ const Academy = () => {
         
         </Grid>
         <center>
-            <a href="https://www.closa.extramile.africa">
-            <Button >Join Closer</Button>
-            </a>
+        <Link path="/snbl">
+            <Button >Save Now</Button>
+            </Link>
             </center>
       </Container>
       
