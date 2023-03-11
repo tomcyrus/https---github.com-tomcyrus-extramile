@@ -20,10 +20,10 @@ const menuItems = [
   //   path: '#supports',
   //   label: 'Suporte',
   // },
-  // {
-  //   path: 'Abou',
-  //   label: 'Academy',
-  // },
+  {
+    path: '/aboutus',
+    label: 'About Us',
+  },
   {
     path: '/faqs',
     label: 'FAQ',

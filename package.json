@@ -26,6 +26,7 @@
     "react-scroll": "^1.8.1",
     "react-stickynode": "^3.0.4",
     "swiper": "^6.3.5",
+    
     "theme-ui": "^0.3.4"
   },
   "devDependencies": {
