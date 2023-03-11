@@ -38,7 +38,7 @@ const Banner = () => {
             Extramile Africa offers Access Now Pay Later to help underserved consumers and MSMEs in Africa buy non-consumable items on credit, with a 30% down-payment and spread payment over a period of time.
             </Text>
             <br></br>
-            <Link path="/extracoop">
+            <Link path="/bnpl">
             <Button >Get Started</Button>
             </Link>
             {/* <SubscriptionForm sx={styles.subscriptionForm} /> */}
