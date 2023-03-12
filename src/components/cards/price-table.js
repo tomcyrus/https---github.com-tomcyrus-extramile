@@ -40,11 +40,13 @@ const PriceTable = ({ price, isAnnual }) => {
           </li>
         ))}
       </Box>
+      <a href={price.readMore}> 
       <Box className="priceButton">
         <Button sx={styles.button} variant="primaryMd">
           {price.buttonText}
         </Button>
       </Box>
+      </a> 
     </Box>
   );
 };

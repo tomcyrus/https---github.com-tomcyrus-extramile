@@ -21,6 +21,7 @@ const data = [
     },
     isRecommended: false,
     buttonText: 'Subscribe Now',
+    readMore: '/wealthmember',
  
     
     features: [
@@ -51,8 +52,6 @@ const data = [
       // },
     ],
   },
-];
-  const datas = [
   {
     id: 2,
     title: 'Extracoop Membership',
@@ -63,6 +62,7 @@ const data = [
     },
     isRecommended: true,
     buttonText: 'Subscribe Now',
+    readMore: '/coophmember',
     features: [
       {
         id: 1,
@@ -91,8 +91,8 @@ const data = [
       // },
     ],
   },
-
 ];
+  
 
 const Pricing = () => {
   const [isMonthly, setIsMonthly] = useState(true);
@@ -126,7 +126,7 @@ const Pricing = () => {
         </Box>
         </Link>
 
-        <Link path="/coopmember">
+        {/* <Link path="/coopmember">
         <Box sx={styles.priceWrapper}>
           <Box sx={styles.priceWrapper}>
           {datas?.map((price, index) => (
@@ -139,7 +139,7 @@ const Pricing = () => {
           ))}
         </Box>
         </Box>
-        </Link>
+        </Link> */}
         {/* </Grid> */}
       </Container>
     </Box>
@@ -185,18 +185,18 @@ const styles = {
     },
   },
 
-  grid2: {
-    gap: ['20px 20px'],
-    justifyContent: 'center',
-    gridTemplateColumns: [
-      'repeat(1, 1fr)',
-      null,
-      null,
-      'repeat(2, 2fr)',
-      null,
-      'repeat(2, 180px)',
-    ],
-  },
+  // grid2: {
+  //   gap: ['20px 20px'],
+  //   justifyContent: 'center',
+  //   gridTemplateColumns: [
+  //     'repeat(1, 1fr)',
+  //     null,
+  //     null,
+  //     'repeat(2, 2fr)',
+  //     null,
+  //     'repeat(2, 180px)',
+  //   ],
+  // },
   priceSwitcher: {
     display: 'flex',
     alignItems: 'center',
