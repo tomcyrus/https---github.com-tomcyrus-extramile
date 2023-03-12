@@ -26,7 +26,7 @@ const data = [
         image: dashboard,
         title: `Introducing Extrapower, an innovative power solution`,
         description: `Take the first step towards a greener future with our solar power product. Contact us today to learn more about our innovative solution and how it can help you reduce your carbon footprint while also saving money.`,
-        readMore: '#introduce-quality',
+        readMore: 'https://closa.extramile.africa/store/category/extra-power-7',
       },
     ],
   },
@@ -43,7 +43,7 @@ const data = [
         image: dashboard,
         title: `Get the support you need to scale your business above competitors`,
         description: `We provides an extensive selection of business support services to cater to your specific needs, ranging from financial management, HR support, marketing and branding, technology solutions, and more. Our team of professionals comprises experienced and well-trained experts who are devoted to offering the highest level of support and guidance for your business.`,
-        readMore: '#introduce-quality',
+        readMore: 'https://closa.extramile.africa/store/category/extrab-support-5',
       },
     ],
   },
@@ -60,7 +60,7 @@ const data = [
         image: dashboard,
         title: `Sales of farmlands, tools, agrochemicals, seeds, inputs, supply chain like palm oil`,
         description: `Extramile specializes in providing a wide range of agricultural products and services to meet the diverse needs of our customers. Our offerings include the sales of farmlands, tools, agrochemicals, seeds, and inputs, as well as the provision of supply chain solutions for products such as palm oil.`,
-        readMore: '#introduce-quality',
+        readMore: 'https://closa.extramile.africa/store/category/extra-farm-3',
       },
     ],
   },
@@ -77,7 +77,7 @@ const data = [
         image: dashboard,
         title: `Have access to high-quality healthcare services, regardless of their background or income level.`,
         description: `We provide affordable, reliable, and 24/7 healthcare services and products to our onboarded users. Checkout our vitual outlests and extrastore for our healthcare products and services for individual and family care `,
-        readMore: '#introduce-quality',
+        readMore: 'https://closa.extramile.africa/store/category/extra-care-4',
       },
     ],
   },
@@ -112,7 +112,7 @@ const data = [
         image: dashboard,
         title: `Ride with Extraride by Extramile Africa and make a living for yourself.`,
         description: `Extramile Africa is excited to introduce our innovative transportation service, Extraride. With Extraride, you have the opportunity to become a car owner and start your own transportation business.`,
-        readMore: '#introduce-quality',
+        readMore: 'https://closa.extramile.africa/store/category/extra-ride-6',
       },
     ],
   },
@@ -131,7 +131,7 @@ const data = [
         description: `Extramile Africa, through Extrautilities, offers a wide range of utility services designed to meet the needs of residential and commercial customers. 
         We understand that reliable and efficient utilities are essential for the comfort and convenience of our customers, which is why we are committed to providing high-quality utility 
         services that meet their needs`,
-        readMore: '#introduce-quality',
+        readMore: 'https://closa.extramile.africa/store/category/extra-utilities-1',
       },
     ],
   },
@@ -159,9 +159,10 @@ const Dashboard = () => {
           animated={{ tabPane: true }}
           defaultActiveKey="2"
         >
+
           {data?.map((tab) => (
             <TabPane key={tab?.id} tab={<TabTitle tab={tab.tabPane} />}>
-              <TabContent tabContent={tab?.tabContent} />
+            <TabContent tabContent={tab?.tabContent} />
             </TabPane>
           ))}
         </Tabs>
