@@ -75,7 +75,7 @@ const data = [
   
 ];
 
-const Pricing = () => {
+const Coopmember = () => {
   const [isMonthly, setIsMonthly] = useState(true);
 
   const handlePlan = () => {
@@ -129,7 +129,7 @@ const Pricing = () => {
     </Box>
 </center>
 <center>
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfSVRs4ZYdo8Oo9le5SCBmgT42NAsFDiwjrBPzSyzOIfUXS8Q/viewform?embedded=true" width="370" height="427" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd1GpFQLLhRhDC5EX12Xtg8HzDUjGoLcxRX02OxAleEjyMebg/viewform?embedded=true" width="370" height="427" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 </center>
  <center>
        
@@ -170,7 +170,7 @@ const Pricing = () => {
   );
 };
 
-export default Pricing;
+export default Coopmember;
 
 const fadeIn = keyframes`
   from {

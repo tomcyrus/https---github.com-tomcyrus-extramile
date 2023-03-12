@@ -48,6 +48,9 @@ const Getstarted = () => {
                     px: 4,
                 }}
                 >
+                <br></br>
+                <br></br>
+                
                     <Title
                     text={
                         'Access Now Pay Later'
@@ -109,7 +112,9 @@ const Getstarted = () => {
 
                     Extramile Africa 'Access Now Pay' Later make it easier to budget and ensure that you have enough money to cover all of your other expenses.
                     </CustomTypography>
+                    
                 </Box>
+            
             </CustomGridItem>
         </Grid>
       

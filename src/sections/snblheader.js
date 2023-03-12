@@ -56,7 +56,7 @@ const SaveHeader = () => {
                     color: '#fff',
                 }}
                 >
-                    We'll build house of your dream
+                    Save Now Buy Later
                 </Typography>
 
                 <Typography
@@ -67,9 +67,8 @@ const SaveHeader = () => {
                     lineHeight: 1.6,
                     color: '#fff',
                 }}
-                >
-                    We have 9000 more review and our customers
-                    trust on out property and quality products.
+                >Our Save Now, Buy Later product is designed to help you avoid debt and achieve your financial goals. By saving money in advance for a future purchase, you can make that purchase with confidence and without the stress of high interest rates. You also get to enjoy a wooping 20% cashback.
+                Beat inflation with Save Now, Buy Later
                 </Typography>
 
                 <Box>

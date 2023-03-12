@@ -50,9 +50,9 @@ const data = [
   
 ];
 
-const App = () => (
-  <ReactWhatsapp number="1-212-736-5000" message="Hello World!!!" />
-);
+// const App = () => (
+//   <ReactWhatsapp number="1-212-736-5000" message="Hello World!!!" />
+// );
 
 const Savenow = () => {
   return (
@@ -64,13 +64,15 @@ const Savenow = () => {
 
         <Grid sx={styles.grid}>
           <Box sx={styles.rightContent}>
-            <SectionHeading
+            {/* <SectionHeading
               emoji={emoji}
               sx={styles.heading}
               title="ExtraStore and drives"
               description="ExtraStore powers and drives discounted prices and pay as you go (we partner with small businesses to deliver pay as you go services to our buyers). We snap products and put our prices on them. (Under Extrastore, we have categories;"
-            />
-           
+            /> */}
+               <center>
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeRCn4q-zUEZTq0Opi5s6mvdCZ2NJXUwYnN8mpSXtO0CAT5Ug/viewform?embedded=true" width="370" height="427" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+</center>
 
             <Box sx={styles.features}>
           

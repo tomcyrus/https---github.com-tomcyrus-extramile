@@ -3,13 +3,13 @@ import { ThemeProvider } from 'theme-ui';
 import theme from 'theme';
 import SEO from 'components/seo';
 import Layout from 'components/layout';
-import Payment from 'sections/payment';
+import Wealthmember from 'sections/payment';
 
 export default function IndexPage() {
   return (
     <ThemeProvider theme={theme}>
       <Layout>
-       <Payment />
+       <Wealthmember />
        
       </Layout>
     </ThemeProvider>
