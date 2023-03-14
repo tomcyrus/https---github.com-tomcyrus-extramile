@@ -15,21 +15,21 @@ import { Link } from 'components/link';
 
 const data = [
   {
-    title: ' How can I borrow or take a loan from Extramile Africa?',
+    title: 'How can I borrow or take a loan from Extramile Africa?',
     contents: (
       <div>
-        It is simply by joining or becoming a member of ExtraCoop by Extramile Africa. How to join? How to benefit?
+        It is simply by joining or becoming a member of ExtraCoop by Extramile Africa.
         <br></br>
       </div>
     ),
   },
   {
-    title: ' How can I buy and pay on instalment from Extramile Africa?',
+    title: 'How can I access and pay on instalment on Extramile Africa?',
     contents: (
       <div>
-       It is simply by using our buy now pay later or pay as you go goodies on Extrastore. 
-       You pick and buy a product or service, pay down 30% and you spread your payment base 
-       on the payment plan you pick. When you visit ExtraStore, go to any category of your choice and start exploring.
+      It is simply by using our Access Now Pay Later on Extracredit. 
+      You pick and buy a product or service, pay down 30% and you spread your payment base on the payment plan you pick. 
+      Go to Access Now Pay Later page, go to any category of your choice and start exploring.
         <br></br>
       </div>
     ),
@@ -59,35 +59,27 @@ const PremiumFeature = () => {
     
     <section id="features" sx={styles.section}>
       <Container>
-      
-        <Grid sx={styles.grid}>
-          <Box as="figure" sx={styles.illustration}>
-            <Image src={faq} alt="faq" />
-          </Box>
-          <Box sx={styles.rightContent}>
-            <SectionHeading
-              // emoji={emoji}
-              sx={styles.heading}
-              title="Extracoop"
-             
-            />
-            <Box sx={styles.accordionGroup}>
-              <Accordion items={data} />
-            </Box>
-            <br></br> 
-            
-          </Box>
-               
- 
-        </Grid>  
-
-        <Grid sx={styles.grid}>
+      <Grid sx={styles.grid}>
           <Box sx={styles.rightContent}>
             <SectionHeading
               emoji={emoji}
               sx={styles.heading}
               title="ExtraStore and drives"
-              description="ExtraStore powers and drives discounted prices and pay as you go (we partner with small businesses to deliver pay as you go services to our buyers). We snap products and put our prices on them. (Under Extrastore, we have categories;"
+              description="ExtraCoop Membership Access helps you to unlock the power of a winning Community
+
+Unlock your Extracredit (Access Now Pay Later) and Extrawealth (Extramile Africa 5-sigma Business Portfolios Partnerships) by becoming a member of Extramile Cooperative- ExtraCoop today.
+
+Unlock your membership with ExtraCoop by Extramile Africa
+
+All you need to do is to get started this exciting journey with us, you can achieve your financial, business or project goals by joining today, ExtraCoop by Extramile Africa. Join now.
+
+You can start accessing and owning your working tools, gadgets, electronics, phones, furniture, solar power, light equipment, and machines, bikes and vehicles and other non-consumable items on credit with just few simple steps;
+
+One, be a member of ExtraCoop which is your #1 Africa hybrid cooperative plugin, gives you instant power to own while you keep paying for it.
+
+Two, fill the online membership form of ExtraCoop and become automatic member for life.
+
+Third, make you membership payment of just 3,500 Naira and upload your proof of payment, you immediately unlock your Extracredit and Extrawealth Access to loads of offerings and benefits.;"
             />
            
 
@@ -102,18 +94,31 @@ const PremiumFeature = () => {
             <Image src={app} alt="workHard" />
           </Box>
           <br></br>
+        </Grid>
+        
+        <Grid sx={styles.grid}>
+          <Box as="figure" sx={styles.illustration}>
+            <Image src={faq} alt="faq" />
+          </Box>
+          <Box sx={styles.rightContent}>
+            <SectionHeading
+              // emoji={emoji}
+              sx={styles.heading}
+              title="Extracoop FAQ"
+             
+            />
+            <Box sx={styles.accordionGroup}>
+              <Accordion items={data} />
+            </Box>
+            <br></br> 
+            
+          </Box>
+               
+ 
         </Grid>  
-          <SectionHeading
-          sx={styles.heading}
-          title="Join REAP by Extramile Africa and make yourself some millions..."
-          description="Join our Affiliate Partners System Earnings and be earning 100k-1million Naira minimum per month- REAP. 
-          How you can earn 100k-1m REAP with no money paid. We have built a leverage for you in Extramile Africa, so co-create wealth with us. 
-          Promote our products on Extrastore in whatsoever categories you love to push. Extramile Homes and Properties, ExtraB-support, ExtraCoop,
-             Extra-digital courses, and earn in millions."
-        />  
-{/* <center>
 
-</center>        */}
+         
+          
       </Container>
     </section>
 

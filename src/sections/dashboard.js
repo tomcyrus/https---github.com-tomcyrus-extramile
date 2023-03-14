@@ -10,13 +10,14 @@ import Cog from 'components/icons/cog';
 import PieChart from 'components/icons/pie-chart';
 import Suitcase from 'components/icons/suitcase';
 import BarChart from 'components/icons/bar-chart';
-import dashboard from 'assets/images/dashboard.png';
+// import dashboard from 'assets/images/dashboard.png';
 import dashboard1 from 'assets/images/dashboard1.png';
 import dashboard2 from 'assets/images/dashboard2.png';
 import dashboard3 from 'assets/images/dashboard3.png';
 import dashboard4 from 'assets/images/dashboard4.png';
 import dashboard5 from 'assets/images/dashboard5.png';
 import dashboard6 from 'assets/images/dashboard6.png';
+import dashboard7 from 'assets/images/dashboard7.png';
 
 const data = [
   {
@@ -97,7 +98,7 @@ const data = [
     ],
     tabContent: [
       {
-        image: dashboard,
+        image: dashboard7,
         title: `Extramile Homes And Properties: Buy Now and Pay Small Small`,
         description: `Affordable lands and properties in high-valued locations like Ibeju-Lekki and Epe, Lagos: Extramile Homes and Properties powered by RENTALS by Extramile Africa. Buy Now and Pay Small Small`,
         readMore: 'https://closa.extramile.africa/store/category/extramiles-homes-and-property-10',
