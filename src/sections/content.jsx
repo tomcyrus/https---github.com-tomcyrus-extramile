@@ -19,7 +19,7 @@ import farmland from 'assets/images/icons/farmland.png';
 import ride from 'assets/images/icons/ride.png';
 import power from 'assets/images/icons/power.png';
 import care from 'assets/images/icons/care.png';
-// import care from 'assets/images/icons/care.png';
+import smes from 'assets/images/icons/sme.png';
 import SectionHeading from 'components/section-heading';
 // components
 import Title from './Title'
@@ -296,7 +296,7 @@ const Content = () => {
                             fontSize="large"
                             color="secondary" /> */}
                             <SectionHeading
-                             emoji={care}
+                             emoji={smes}
                             />
                         </IconButton>
                         <Typography 
