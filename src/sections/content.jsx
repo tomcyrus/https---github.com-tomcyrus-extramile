@@ -50,7 +50,7 @@ const Content = () => {
             >
                 <Title
                 text={
-                    'Some of our available products:'
+                    'Our available products:'
                 }
                 textAlign={'start'}
                 />
@@ -90,10 +90,11 @@ const Content = () => {
                 }}>
                     <CardContent>
                         <IconButton>
+                        <a href ="https://closa.extramile.africa/store/category/extramiles-homes-and-property-10">
                         <SectionHeading
                              emoji={home}
                             />
-                            
+                            </a>
                             
                         </IconButton>
                         <Typography 
@@ -127,10 +128,11 @@ const Content = () => {
                             {/* <LocalParkingIcon 
                             fontSize="large"
                             color="secondary" /> */}
-
+                <a href ="https://closa.extramile.africa/store/category/extra-ride-6">
                             <SectionHeading
                              emoji={ride}
                             />
+                            </a>
                         </IconButton>
                         <Typography 
                         variant="h5" 
@@ -165,9 +167,9 @@ const Content = () => {
                     textAlign: 'center',
                 }}>
                     <CardContent>
-                        <ArrowCircleRightRoundedIcon
+                        {/* <ArrowCircleRightRoundedIcon
                         fontSize="large"
-                        color="secondary" />
+                        color="secondary" /> */}
                     </CardContent>
                 </Card>
             </Grid>
@@ -189,9 +191,11 @@ const Content = () => {
                             {/* <FastfoodOutlinedIcon
                             fontSize="large"
                             color="#FFC059" /> */}
+                            <a href ="https://closa.extramile.africa/store/category/extra-utilities-1">
                             <SectionHeading
                              emoji={utilities}
                             />
+                            </a>
                         </IconButton>
                         <Typography 
                         variant="h5" 
@@ -225,9 +229,11 @@ const Content = () => {
                             {/* <PoolOutlinedIcon 
                             fontSize="large"
                             color="secondary" /> */}
+                            <a href ="https://closa.extramile.africa/store/category/extra-care-4">
                             <SectionHeading
                              emoji={care}
                             />
+                            </a>
                         </IconButton>
                         <Typography 
                         variant="h5" 
@@ -260,10 +266,11 @@ const Content = () => {
                             {/* <WifiPasswordIcon
                             fontSize="large"
                             color="secondary" /> */}
-
+                            <a href ="https://closa.extramile.africa/store/category/extra-farm-3">
                             <SectionHeading
                              emoji={farmland}
                             />
+                            </a>
                         </IconButton>
                         <Typography 
                         variant="h5" 
@@ -295,9 +302,11 @@ const Content = () => {
                             {/* <WifiPasswordIcon
                             fontSize="large"
                             color="secondary" /> */}
+                            <a href ="/">
                             <SectionHeading
                              emoji={smes}
                             />
+                            </a>
                         </IconButton>
                         <Typography 
                         variant="h5" 
@@ -329,9 +338,12 @@ const Content = () => {
                             {/* <WifiPasswordIcon
                             fontSize="large"
                             color="secondary" /> */}
+                            <a href ="https://closa.extramile.africa/store/category/extra-power-7">
                             <SectionHeading
                              emoji={power}
                             />
+                            </a>
+                        
                         </IconButton>
                         <Typography 
                         variant="h5" 
