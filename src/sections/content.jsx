@@ -13,6 +13,14 @@ import ArrowCircleRightRoundedIcon from '@mui/icons-material/ArrowCircleRightRou
 import FastfoodOutlinedIcon from '@mui/icons-material/FastfoodOutlined';
 import PoolOutlinedIcon from '@mui/icons-material/PoolOutlined';
 import WifiPasswordIcon from '@mui/icons-material/WifiPassword';
+import utilities from 'assets/images/icons/utilities.png';
+import home from 'assets/images/icons/home.png';
+import farmland from 'assets/images/icons/farmland.png';
+import ride from 'assets/images/icons/ride.png';
+import power from 'assets/images/icons/power.png';
+import care from 'assets/images/icons/care.png';
+// import care from 'assets/images/icons/care.png';
+import SectionHeading from 'components/section-heading';
 // components
 import Title from './Title'
 import Paragraph from './Paragraph'
@@ -42,7 +50,7 @@ const Content = () => {
             >
                 <Title
                 text={
-                    'What we are offering?'
+                    'Some of our available products:'
                 }
                 textAlign={'start'}
                 />
@@ -55,14 +63,12 @@ const Content = () => {
                     paddingTop: 1,
                 }}
                 >
-                    Property facilities
+                    Non Consumable Product
                 </Typography>
 
                 <Paragraph 
                 text={
-                    ' We have more 5000 reviews\
-                    and our customers trust on out quality\
-                    product and trust own our product.'
+                    ' We have hundreds of product for you to explore and access.'
                 }
                 maxWidth = {'75%'}
                 mx={0}
@@ -84,9 +90,11 @@ const Content = () => {
                 }}>
                     <CardContent>
                         <IconButton>
-                            <SportsGymnasticsIcon 
-                            fontSize="large"
-                            color="secondary" />
+                        <SectionHeading
+                             emoji={home}
+                            />
+                            
+                            
                         </IconButton>
                         <Typography 
                         variant="h5" 
@@ -96,7 +104,7 @@ const Content = () => {
                             textTransform: 'capitalize',
                         }}
                         >
-                        gym
+                       Extramile Homes & Properties
                         </Typography>
                     </CardContent>
                 </Card>
@@ -116,9 +124,13 @@ const Content = () => {
                 }}>
                     <CardContent>
                         <IconButton>
-                            <LocalParkingIcon 
+                            {/* <LocalParkingIcon 
                             fontSize="large"
-                            color="secondary" />
+                            color="secondary" /> */}
+
+                            <SectionHeading
+                             emoji={ride}
+                            />
                         </IconButton>
                         <Typography 
                         variant="h5" 
@@ -128,11 +140,13 @@ const Content = () => {
                             textTransform: 'capitalize',
                         }}
                         >
-                        parking
+                        ExtraRide
                         </Typography>
                     </CardContent>
                 </Card>
             </Grid>
+           
+           
 
             <Grid item xs={12} sm={6} md={2}
             sx={{
@@ -172,9 +186,12 @@ const Content = () => {
                 }}>
                     <CardContent>
                         <IconButton>
-                            <FastfoodOutlinedIcon
+                            {/* <FastfoodOutlinedIcon
                             fontSize="large"
-                            color="#FFC059" />
+                            color="#FFC059" /> */}
+                            <SectionHeading
+                             emoji={utilities}
+                            />
                         </IconButton>
                         <Typography 
                         variant="h5" 
@@ -184,7 +201,7 @@ const Content = () => {
                             textTransform: 'capitalize',
                         }}
                         >
-                        local dining
+                        ExtraUtilities
                         </Typography>
                     </CardContent>
                 </Card>
@@ -205,9 +222,12 @@ const Content = () => {
                 >
                     <CardContent>
                         <IconButton>
-                            <PoolOutlinedIcon 
+                            {/* <PoolOutlinedIcon 
                             fontSize="large"
-                            color="secondary" />
+                            color="secondary" /> */}
+                            <SectionHeading
+                             emoji={care}
+                            />
                         </IconButton>
                         <Typography 
                         variant="h5" 
@@ -217,7 +237,7 @@ const Content = () => {
                             textTransform: 'capitalize',
                         }}
                         >
-                        swimming pool
+                        ExtraCare
                         </Typography>
                     </CardContent>
                 </Card>
@@ -237,9 +257,13 @@ const Content = () => {
                 }}>
                     <CardContent>
                         <IconButton>
-                            <WifiPasswordIcon
+                            {/* <WifiPasswordIcon
                             fontSize="large"
-                            color="secondary" />
+                            color="secondary" /> */}
+
+                            <SectionHeading
+                             emoji={farmland}
+                            />
                         </IconButton>
                         <Typography 
                         variant="h5" 
@@ -249,7 +273,75 @@ const Content = () => {
                             textTransform: 'capitalize',
                         }}
                         >
-                        Internet
+                        ExtraFarm
+                        </Typography>
+                    </CardContent>
+                </Card>
+            </Grid> 
+            <Grid item xs={12} sm={6} md={3}>
+                <Card 
+                square={ true }
+                sx={{ 
+                    minHeight: 200,
+                    display: 'flex',
+                    flexDirection:'column',
+                    justifyContent: 'center',
+                    alignItems: 'center',
+                    textAlign: 'center', 
+                    border: '1px solid #FFC059',
+                }}>
+                    <CardContent>
+                        <IconButton>
+                            {/* <WifiPasswordIcon
+                            fontSize="large"
+                            color="secondary" /> */}
+                            <SectionHeading
+                             emoji={care}
+                            />
+                        </IconButton>
+                        <Typography 
+                        variant="h5" 
+                        component="p"
+                        sx={{
+                            fontWeight: 700,
+                            textTransform: 'capitalize',
+                        }}
+                        >
+                        SMEs ExtraPark
+                        </Typography>
+                    </CardContent>
+                </Card>
+            </Grid> 
+            <Grid item xs={12} sm={6} md={3}>
+                <Card 
+                square={ true }
+                sx={{ 
+                    minHeight: 200,
+                    display: 'flex',
+                    flexDirection:'column',
+                    justifyContent: 'center',
+                    alignItems: 'center',
+                    textAlign: 'center', 
+                    border: '1px solid #FFC059',
+                }}>
+                    <CardContent>
+                        <IconButton>
+                            {/* <WifiPasswordIcon
+                            fontSize="large"
+                            color="secondary" /> */}
+                            <SectionHeading
+                             emoji={power}
+                            />
+                        </IconButton>
+                        <Typography 
+                        variant="h5" 
+                        component="p"
+                        sx={{
+                            fontWeight: 700,
+                            textTransform: 'capitalize',
+                        }}
+                        >
+                        ExtraPower
                         </Typography>
                     </CardContent>
                 </Card>
