@@ -3,6 +3,7 @@ import { Box, Button, styled, Typography } from "@mui/material";
 // import { Link } from 'react-router-dom'
 //img
 import headerImg from '../assets/images/pexels-binyamin-mellish-186078.png'
+import snbl from 'assets/images/wealth1.png';
 
 const SaveHeader = () => {
 
@@ -135,7 +136,7 @@ const SaveHeader = () => {
             })}
             >
                 <img
-                src={headerImg}
+                src={snbl}
                 alt="headerImg"
                 style={{ 
                     width: "100%", 
