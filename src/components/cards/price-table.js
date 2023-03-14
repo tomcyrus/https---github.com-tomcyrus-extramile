@@ -15,7 +15,7 @@ const PriceTable = ({ price, isAnnual }) => {
           {price.title}
         </Heading>
         <Text as="p" sx={styles.priceAmount}>
-          {isAnnual
+        ₦ {isAnnual
             ? price?.amount?.annual.toFixed(2)
             : price?.amount?.monthly.toFixed(2)}
         

@@ -62,7 +62,7 @@ const data = [
     },
     isRecommended: true,
     buttonText: 'Subscribe Now',
-    readMore: '/coophmember',
+    readMore: '/coopmember',
     features: [
       {
         id: 1,
@@ -111,7 +111,7 @@ const Pricing = () => {
           description="Discover our Membership plans"
         />
        {/* <Grid sx={styles.grid2}> */}
-        <Link path="/wealthmember">
+        {/* <Link path={price.readMore}> */}
         <Box sx={styles.priceWrapper}>
           <Box sx={styles.priceWrapper}>
           {data?.map((price, index) => (
@@ -124,7 +124,7 @@ const Pricing = () => {
           ))}
         </Box>
         </Box>
-        </Link>
+        {/* </Link> */}
 
         {/* <Link path="/coopmember">
         <Box sx={styles.priceWrapper}>

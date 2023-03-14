@@ -17,7 +17,7 @@ const paymentdetails = [
     id: 1,
     icon: support,
     title: 'Subscription Payment Methods',
-    description: `Pay the of NGN 4,000 only into the account details, after successful transaction click on the button below to confirm payment.`,
+    description: `Pay the sum of NGN 4,000 only into the account details, after successful transaction click on the button below to confirm payment.`,
     
   },
   {
