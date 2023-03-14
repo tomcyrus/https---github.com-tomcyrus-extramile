@@ -11,13 +11,14 @@ import { Link } from 'components/link';
 
 const data = [
   {
-    title: ' ExtraCoop',
+    title: 'Extracoop Membership Access',
     contents: (
       <div>
-        Credit-on-the-go to access instant solar-power to power your shops, schools, offices, farms, and homes.
+        Unlock your Credit-on-the-go with your Extracoop membership to access Extracredit (Access Now, Pay Later) 
+        and Extrawealth (Extramile Africa 5-Sigma Business Portfolio Partnership). Become a member of 
+        Extramile Cooperative - Extracoop today to power your shops, schools, offices, farms, and homes.
         <br></br>
         Get Instant access on credit and pay back bit-by-bit without sweating.
-        <br></br>
 
         <LearnMore label="Learn more" path="/extracoop" />
       </div>
@@ -27,11 +28,10 @@ const data = [
     title: 'Extracredit Access',
     contents: (
       <div>
-        <b>A.</b>Access Now Pay Later- You pay just 30% on any of the products you pick from any supplier or buy on our marketplace- Extrastore by Extramile Africa, and you spread your payment accordingly with 6-12months depending on your plan
+        <b>A.</b>Access Now Pay Later- You pay just 30% on any of the products you pick from any supplier of your choice or buy on our marketplace- Extrastore by Extramile Africa, and spread your payment accordingly within 6-12months depending on your plan
          
         <br></br>
-       <b> B.</b> Access upto X3 credit (loans) on your savings in 3months- with Extracredit, you can do flexible savings for 3months and get upto X3 credit facilities on your savings.
-        <br></br>
+       <b> B.</b>Access upto X3 credit (loans) on your savings in 3months- with Extracredit, you can do flexible savings for 3months and get upto X3 credit facilities on your savings.
         <LearnMore label="Learn more" path="/extracoop" />
       </div>
     ),
@@ -63,9 +63,9 @@ const PremiumFeature = () => {
             <SectionHeading
               emoji={emoji}
               sx={styles.heading}
-              title="Extramile Africa everyday products and services"
-              description="Extramile Africa has pivoted into a new faze in our advocacy; building Africa #1 alternative credit infrastructure and credit scores 
-              for the underserved and lastmiles left in the cold for years.
+              title="Extramile Africa Everyday Products And Services"
+              description="Extramile Africa has pivoted into a new faze in our advocacy for deepening financial inclusion; 
+              building Africa #1 alternative credit infrastructure and credit scores for the underserved and lastmiles left in the cold for years via Access Now Pay Later.
               Access Now Pay Later
               "
             />

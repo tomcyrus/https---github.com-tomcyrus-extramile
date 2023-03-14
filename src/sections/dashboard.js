@@ -24,8 +24,8 @@ const data = [
     tabContent: [
       {
         image: dashboard,
-        title: `Introducing Extrapower, an innovative power solution`,
-        description: `Take the first step towards a greener future with our solar power product. Contact us today to learn more about our innovative solution and how it can help you reduce your carbon footprint while also saving money.`,
+        title: `Introducing Extrapower, An Innovative Power Solution`,
+        description: `Take the first step towards a greener future with our solar power products. Contact us today to learn more about our innovative solution and how it can help you reduce your carbon footprint while also saving money.`,
         readMore: 'https://closa.extramile.africa/store/category/extra-power-7',
       },
     ],
@@ -41,8 +41,8 @@ const data = [
     tabContent: [
       {
         image: dashboard,
-        title: `Get the support you need to scale your business above competitors`,
-        description: `We provides an extensive selection of business support services to cater to your specific needs, ranging from financial management, HR support, marketing and branding, technology solutions, and more. Our team of professionals comprises experienced and well-trained experts who are devoted to offering the highest level of support and guidance for your business.`,
+        title: `Get The Support You Need To Scale Your Business Above Competitors`,
+        description: `We provide an extensive selection of business support services to cater for your specific needs, ranging from financial management, HR support, marketing and branding, technology solutions, and more. Our team of professionals comprise experienced and well-trained experts who are devoted to offering the highest level of support and guidance for your business.`,
         readMore: 'https://closa.extramile.africa/store/category/extrab-support-5',
       },
     ],
@@ -58,8 +58,8 @@ const data = [
     tabContent: [
       {
         image: dashboard,
-        title: `Sales of farmlands, tools, agrochemicals, seeds, inputs, supply chain like palm oil`,
-        description: `Extramile specializes in providing a wide range of agricultural products and services to meet the diverse needs of our customers. Our offerings include the sales of farmlands, tools, agrochemicals, seeds, and inputs, as well as the provision of supply chain solutions for products such as palm oil.`,
+        title: `Sales Of Farmlands, Tools, Agrochemicals, Seeds, Inputs, Supply Chain Like Palm Oil And Other Agro-Commodities `,
+        description: `Extramile Africa specializes in providing a wide range of agricultural products and services to meet the diverse needs of our customers. Our offerings include the sales of farmlands, tools, agrochemicals, seeds, and inputs, as well as the provision of supply chain solutions for products such as palm oil and other agro-commodities`,
         readMore: 'https://closa.extramile.africa/store/category/extra-farm-3',
       },
     ],
@@ -75,8 +75,8 @@ const data = [
     tabContent: [
       {
         image: dashboard,
-        title: `Have access to high-quality healthcare services, regardless of their background or income level.`,
-        description: `We provide affordable, reliable, and 24/7 healthcare services and products to our onboarded users. Checkout our vitual outlests and extrastore for our healthcare products and services for individual and family care `,
+        title: `Have Access To High-Quality Healthcare Services, Regardless Of Your Background Or Income Level.`,
+        description: `We provide affordable, reliable, and 24/7 healthcare services and products to our onboarded users. Checkout our vitual outlests and extrastore for our healthcare products and services for individual and family care`,
         readMore: 'https://closa.extramile.africa/store/category/extra-care-4',
       },
     ],
@@ -92,10 +92,9 @@ const data = [
     tabContent: [
       {
         image: dashboard,
-        title: `Extramile Homes and Properties: Buy Now and pay small small`,
-        description: `Affordable lands and properties in high-valued locations like Ibeju-Lekki, Lagos: Extramile Homes and Properties powered by RENTALS by Extramile Africa.
-        Buy Now and pay small small`,
-        readMore: '#introduce-quality',
+        title: `Extramile Homes And Properties: Buy Now and Pay Small Small`,
+        description: `Affordable lands and properties in high-valued locations like Ibeju-Lekki and Epe, Lagos: Extramile Homes and Properties powered by RENTALS by Extramile Africa. Buy Now and Pay Small Small`,
+        readMore: 'https://closa.extramile.africa/store/category/extramiles-homes-and-property-10',
       },
     ],
   },
@@ -110,8 +109,8 @@ const data = [
     tabContent: [
       {
         image: dashboard,
-        title: `Ride with Extraride by Extramile Africa and make a living for yourself.`,
-        description: `Extramile Africa is excited to introduce our innovative transportation service, Extraride. With Extraride, you have the opportunity to become a car owner and start your own transportation business.`,
+        title: `Ride With Extraride By Extramile Africa And Make A Living For Yourself..`,
+        description: `Extramile Africa is excited to introduce our innovative Access Now Pay Later for transportation service. With Extraride, you have the opportunity to become a car or bike owner and start your own delivery and logistics business.`,
         readMore: 'https://closa.extramile.africa/store/category/extra-ride-6',
       },
     ],

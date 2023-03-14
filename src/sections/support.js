@@ -24,8 +24,7 @@ const data = [
     icon: support,
     title: 'OUR PASSION',
     description: `Our passion is to connect small businesses in Africa with seamless and alternative finance- credit-on-the-go 
-    infrastructure (stocks, inputs, solar-power, healthcare products) rotating credit lines and working capital faster, all to 
-    boost their productivity, business and profit in a seamless way.`
+    infrastructure (working tools, equipment, solar power, gadget products) all to boost their productivity, business and profit in a seamless way.`
   },
 
   
