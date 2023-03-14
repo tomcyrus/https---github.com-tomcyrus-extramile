@@ -63,12 +63,12 @@ const Content = () => {
                     paddingTop: 1,
                 }}
                 >
-                    Non Consumable Product
+                    Non Consumable Products
                 </Typography>
 
                 <Paragraph 
                 text={
-                    ' We have hundreds of product for you to explore and access.'
+                    ' We have hundreds of products for you to explore and access.'
                 }
                 maxWidth = {'75%'}
                 mx={0}
@@ -166,10 +166,22 @@ const Content = () => {
                     alignItems: 'center',
                     textAlign: 'center',
                 }}>
+
+                    <Typography 
+                        variant="h5" 
+                        component="p"
+                        sx={{
+                            fontWeight: 700,
+                            textTransform: 'capitalize',
+                        }}
+                        >
+                        Start Exploring
+                        </Typography>
+
                     <CardContent>
-                        {/* <ArrowCircleRightRoundedIcon
+                        <ArrowCircleRightRoundedIcon
                         fontSize="large"
-                        color="secondary" /> */}
+                        color="primary" />
                     </CardContent>
                 </Card>
             </Grid>

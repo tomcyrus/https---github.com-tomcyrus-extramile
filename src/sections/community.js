@@ -3,7 +3,7 @@ import { jsx, Box, Container, Grid,Button,Text } from 'theme-ui';
 import SectionHeading from 'components/section-heading';
 import Accordion from 'components/accordion/accordion';
 import Image from 'components/image';
-import messenger from 'assets/images/academy.png';
+import community from 'assets/images/community.png';
 import { Link } from 'components/link';
 import emoji from 'assets/images/icons/emoji.png';
 
@@ -41,7 +41,7 @@ const Community = () => {
           
         />
         <Box as="figure" sx={styles.illustration}>
-            <Image src={messenger} alt="messenger" />
+            <Image src={community} alt="community" />
             {/* <iframe width="320" height="315" src="https://www.youtube.com/embed/zzC9YhYbUX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
           </Box>
         

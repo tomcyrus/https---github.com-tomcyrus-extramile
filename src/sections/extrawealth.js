@@ -3,7 +3,7 @@ import { jsx, Box, Container, Grid,Button,Text } from 'theme-ui';
 import SectionHeading from 'components/section-heading';
 import Accordion from 'components/accordion/accordion';
 import Image from 'components/image';
-import messenger from 'assets/images/academy.png';
+import snbl from 'assets/images/snbl.png';
 import { Link } from 'components/link';
 import emoji from 'assets/images/icons/emoji.png';
 
@@ -32,7 +32,7 @@ const Extrawealth = () => {
       <Container>
         <Grid sx={styles.grid}>
           <Box as="figure" sx={styles.illustration}>
-            <Image src={messenger} alt="messenger" />
+            <Image src={snbl} alt="snbl" />
            
           </Box>
           
