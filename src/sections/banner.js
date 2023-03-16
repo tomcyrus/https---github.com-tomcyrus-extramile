@@ -103,9 +103,17 @@ const Banner = () => {
             </motion.p>
             </Text>
             <br></br>
+            <motion.div
+              initial={{ opacity: 0, scale: 0 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 0.5 }}
+              whileHover={{scale : 1.1}}
+              
+  >
             <Link path="/anpl">
             <Button >Get Started</Button>
             </Link>
+            </motion.div>
             {/* <SubscriptionForm sx={styles.subscriptionForm} /> */}
             <Flex sx={styles.sponsoredBy}>
               <Text as="span">Partners:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Text>
@@ -121,8 +129,10 @@ const Banner = () => {
           <motion.span
            whileHover={{scale : 1.2}}
            transition ={{duration: 0.3}}
+           initial={{ opacity: 0, scale: 0.5 }}
+          animate={{ opacity: 1, scale: 1 }}
+          variants={img}
          
-           
             >
           <Flex as="figure" sx={styles.bannerImage}>
           

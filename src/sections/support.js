@@ -3,6 +3,7 @@ import { jsx, Container, Grid, Box, Flex, Heading, Text } from 'theme-ui';
 import Image from 'components/image';
 import support from 'assets/images/support.png';
 import rightArrow from 'assets/images/icons/right-arrow.png';
+import {motion} from 'framer-motion';
 
 const data = [
 
@@ -49,6 +50,10 @@ const Support = () => {
   return (
     <Box as="section" id="support" sx={styles.section}>
       <Container>
+      <motion.h1
+              
+                whileHover={{ scale: 1.1 }}
+            >
         <Grid sx={styles.grid}>
           {data?.map((item) => (
             <Flex key={item.id} sx={styles.supportItem}>
@@ -65,6 +70,7 @@ const Support = () => {
             </Flex>
           ))}
         </Grid>
+        </motion.h1>
       </Container>
     </Box>
   );

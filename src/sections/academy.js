@@ -6,6 +6,7 @@ import Image from 'components/image';
 import extrawealth from 'assets/images/extrawealth.png';
 import { Link } from 'components/link';
 import emoji from 'assets/images/icons/emoji.png';
+import { motion } from "framer-motion";
 
 
 
@@ -30,6 +31,7 @@ const Academy = () => {
   return (
     <section id="features" sx={styles.section}>
       <Container>
+     
       <SectionHeading
           sx={styles.heading}
           title="Value Added Services (VAS)"
@@ -66,17 +68,23 @@ const Academy = () => {
           Beat inflation with Save Now, Buy Later"
           
         />
+         <motion.span
+
+           
+                whileHover={{ scale: 1.1 }}
+>
         <Box as="figure" sx={styles.illustration}>
             <Image src={extrawealth} alt="extrawealth" />
             {/* <iframe width="320" height="315" src="https://www.youtube.com/embed/zzC9YhYbUX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
           </Box>
-        
+          </motion.span>
         </Grid>
         <center>
         <Link path="/snbl">
             <Button >Save Now</Button>
             </Link>
             </center>
+           
       </Container>
       
     </section>

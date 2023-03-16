@@ -14,7 +14,7 @@ import Subscribe from 'sections/subscribe';
 import Academy from 'sections/academy';
 import Extrawealth from 'sections/extrawealth';
 import Community from 'sections/community';
-
+import { motion } from "framer-motion";
 
 
 export default function IndexPage() {
@@ -25,9 +25,8 @@ export default function IndexPage() {
           title="Extramile Africa"
           description="Financial inclusion and wellness for shared-prosperity, cooperative growth, healthy living and everyday essentials with lots of seamless access to credit-on-the-go solutions"
         />
+     
         <Banner />
-       
-
 
         <Support />
         <PremiumFeature />
@@ -39,6 +38,7 @@ export default function IndexPage() {
         <Community />
         <Testimonials />
         <Subscribe />
+      
       </Layout>
     </ThemeProvider>
   );
