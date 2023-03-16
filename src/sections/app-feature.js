@@ -5,6 +5,7 @@ import { LearnMore } from 'components/link';
 import app from 'assets/images/shop.png';
 import emoji from 'assets/images/icons/emoji.png';
 import check from 'assets/images/icons/check-circle.png';
+import { motion } from "framer-motion";
 
 const data = [
   {
@@ -75,8 +76,24 @@ const AppFeature = () => {
             <br></br>
          
           </Box>
+          
           <Box sx={styles.illustration}>
+          <motion.div
+          animate={{
+            x:175,
+            opacity:1
+          }}
+          initial={{
+            opacity:0.1
+          }}
+          transition={{
+            type:"spring",
+            stiffness:60,
+            damping:100
+          }}
+          >
             <Image src={app} alt="workHard" />
+          </motion.div>
           </Box>
         </Grid>
       </Container>

@@ -7,6 +7,7 @@ import services from 'assets/images/services.png';
 import { LearnMore } from 'components/link';
 import emoji from 'assets/images/icons/emoji.png';
 import { Link } from 'components/link';
+import { motion } from "framer-motion";
 
 
 const data = [
@@ -56,7 +57,22 @@ const PremiumFeature = () => {
       <Container>
         <Grid sx={styles.grid}>
           <Box as="figure" sx={styles.illustration}>
+          <motion.div
+          animate={{
+            x:0,
+            opacity:1
+          }}
+          initial={{
+            opacity:0.1
+          }}
+          transition={{
+            type:"spring",
+            stiffness:60,
+            damping:45
+          }}
+          >
             <Image src={services} alt="services" />
+            </motion.div>
           </Box>
           <Box sx={styles.rightContent}>
           <Link  path="/extracoop">
