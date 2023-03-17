@@ -11,7 +11,7 @@ import Title from './Title';
 import { Link } from 'components/link';
 // img
 import imgDetail from '../assets/images/acess.jpg';
-import imgDetail2 from '../assets/images/pexels-pixabay-271816.jpg';
+import imgDetail2 from '../assets/images/access.jpg';
 
 
 const Getstarted = () => {
@@ -98,6 +98,8 @@ const Getstarted = () => {
                 <img src={imgDetail} alt="" 
                 style={{
                     width: '100%',
+                    borderRadius:"40px",
+                    
                 }}
                 />
             </Grid>
@@ -110,6 +112,7 @@ const Getstarted = () => {
                 <img src={imgDetail2} alt="" 
                 style={{ 
                     width: "100%",
+                    borderRadius:"40px",
                 }}
                 />
             </Grid>
