@@ -1,7 +1,7 @@
 import lock from 'assets/images/icons/lock.png';
 export default [
   {
-    path: '/home',
+    path: 'home',
     label: 'Home',
   },
   {
