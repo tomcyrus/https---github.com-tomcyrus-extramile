@@ -23,12 +23,17 @@ export default function Accordion({ items, ...props }) {
           {items.map((item, index) => (
             <AccordionItem
               key={item.title}
+             
               sx={styles.accordion}
               isOpen={openIndexes.includes(index)}
               className={openIndexes.includes(index) ? 'is-open' : 'is-closed'}
             >
               <AccordionButton onClick={() => handleItemClick(index)}>
-                <Heading as="h3" sx={styles.title}>
+                <Heading as="h3" 
+                sx={styles.title}
+               
+                >
+                
                   {item.title}
                 </Heading>
                 {!openIndexes.includes(index) && (
@@ -64,7 +69,7 @@ const styles = {
     },
   },
   title: {
-    color: 'heading',
+    color: '#E6A740',
     fontWeight: 500,
     fontSize: [1, null, null, 2],
     letterSpacing: [0, null, null, null, 'heading'],

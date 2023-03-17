@@ -82,7 +82,7 @@ const PremiumFeature = () => {
               title="Extramile Africa Everyday Products And Services"
               description="Extramile Africa has pivoted into a new faze in our advocacy for deepening financial inclusion; 
               building Africa #1 alternative credit infrastructure and credit scores for the underserved and lastmiles left in the cold for years via Access Now Pay Later.
-              Access Now Pay Later
+              
               "
             />
             </Link>
