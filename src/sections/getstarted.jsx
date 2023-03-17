@@ -94,6 +94,7 @@ const Getstarted = () => {
             </CustomGridItem>
             
             <Grid item xs={12} sm={4} md={6}>
+            <br></br>
                 <img src={imgDetail} alt="" 
                 style={{
                     width: '100%',
