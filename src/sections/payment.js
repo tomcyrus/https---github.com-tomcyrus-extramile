@@ -24,9 +24,9 @@ const paymentdetails = [
     id: 2,
     icon: support,
     title: 'Subscription Payment Methods',
-    description: `Account Number : xxxxxxxxxxxxx 
-    \nAccount Name  : xxxxxxxxxxxxxxx 
-    \nBank Name : xxxxxxxxxxxxxxx \n `,
+    description: `Account Number : 1016308218 
+    \nAccount Name  : Extrafin Advisory Technologies
+    \nBank Name : Zenith Bank \n `,
   },
 
 ];

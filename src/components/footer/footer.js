@@ -55,7 +55,9 @@ export default function Footer() {
           <Flex sx={styles.copyright}>
             <Logo isWhite />
             <Text as="span">
-              &copy; Copyright by {new Date().getFullYear()} ExtramileAfrica
+              &copy; Copyright by {new Date().getFullYear()} Extramile Africa 
+              <br></br>
+              Powered by Extrafin Advisory Technologies
             </Text>
           </Flex>
           <Flex as="ul" sx={styles.footerNav}>
