@@ -2,7 +2,8 @@ import React from 'react'
 import { Box, Button, styled, Typography } from "@mui/material";
 // import { Link } from 'react-router-dom'
 //img
-import headerImg from '../assets/images/pexels-binyamin-mellish-186078.png'
+import headerImg from '../assets/images/extracoop1.png';
+import { motion } from "framer-motion";
 
 const Header = () => {
 
@@ -56,7 +57,7 @@ const Header = () => {
                     color: '#fff',
                 }}
                 >
-                    We'll build house of your dream
+                   Unlock your membership on ExtraCoop by Extramile Africa
                 </Typography>
 
                 <Typography
@@ -68,59 +69,10 @@ const Header = () => {
                     color: '#fff',
                 }}
                 >
-                    We have 9000 more review and our customers
-                    trust on out property and quality products.
+                   Join Toke and other thousands of Africans and unlock your Extrawealth and Extracredit access to loads of offerings and benefits
                 </Typography>
 
-                <Box>
-                    <Button 
-                    variant='contained'
-                    sx={{
-                        mr: 2,
-                        px: 4, 
-                        py: 1,
-                        fontSize: '0.9rem',
-                        textTransform: 'capitalize',
-                        borderRadius: 0,
-                        borderColor: '#14192d',
-                        color: '#fff',
-                        backgroundColor: '#14192d',
-                        "&&:hover": {
-                            backgroundColor: "#343a55"
-                        },
-                        "&&:focus": {
-                            backgroundColor: "#343a55"
-                        }
-                    }}
-                    >
-                        buy now
-                    </Button>
-                    <Button 
-                    // component={Link} 
-                    to={'/about'}
-                    variant='outlined'
-                    sx={{
-                        px: 4, 
-                        py: 1,
-                        fontSize:'0.9rem',
-                        textTransform: 'capitalize',
-                        borderRadius: 0,
-                        color: '#fff',
-                        backgroundColor: 'transparent',
-                        borderColor: '#fff',
-                        "&&:hover": {
-                            color: '#343a55',
-                            borderColor: '#343a55',
-                        },
-                        "&&:focus": {
-                            color: '#343a55',
-                            borderColor: '#343a55',
-                        }
-                    }}
-                    >
-                        explore
-                    </Button>
-                </Box>
+                
             </BoxText>
 
             <Box sx={theme => ({
@@ -135,6 +87,20 @@ const Header = () => {
                 },
             })}
             >
+            <motion.div
+          animate={{
+            x:-10,
+            opacity:1
+          }}
+          initial={{
+            opacity:0.1
+          }}
+          transition={{
+            type:"spring",
+            stiffness:60,
+            damping:100
+          }}
+          >
                 <img
                 src={headerImg}
                 alt="headerImg"
@@ -143,6 +109,7 @@ const Header = () => {
                     marginBottom: -15,
                 }}
                 />
+                </motion.div>
             </Box>
 
         </CustomBox>

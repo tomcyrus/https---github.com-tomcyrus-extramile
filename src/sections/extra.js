@@ -1,5 +1,7 @@
 /** @jsx jsx */
-import { jsx, Box, Container, Flex, Grid,Button,Text } from 'theme-ui';
+import { jsx, Box, Container, Flex, Grid,Button,Text, } from 'theme-ui';
+
+
 import SectionHeading from 'components/section-heading';
 import Accordion from 'components/accordion/accordion';
 import Image from 'components/image';
@@ -7,6 +9,7 @@ import faq from 'assets/images/faq.webp';
 import { LearnMore } from 'components/link';
 import emoji from 'assets/images/icons/emoji.png';
 import app from 'assets/images/shop.png';
+import { motion } from "framer-motion";
 
 import check from 'assets/images/icons/check-circle.png';
 import { Link } from 'components/link';
@@ -64,35 +67,45 @@ const PremiumFeature = () => {
             <SectionHeading
               emoji={emoji}
               sx={styles.heading}
-              title="ExtraStore and drives"
-              description="ExtraCoop Membership Access helps you to unlock the power of a winning Community
+              title="Unlock Your Membership With ExtraCoop By Extramile Africa"
+              description="ExtraCoop Membership Access helps you to unlock the power of a winning Community.
 
 Unlock your Extracredit (Access Now Pay Later) and Extrawealth (Extramile Africa 5-sigma Business Portfolios Partnerships) by becoming a member of Extramile Cooperative- ExtraCoop today.
 
-Unlock your membership with ExtraCoop by Extramile Africa
-
 All you need to do is to get started this exciting journey with us, you can achieve your financial, business or project goals by joining today, ExtraCoop by Extramile Africa. Join now.
 
-You can start accessing and owning your working tools, gadgets, electronics, phones, furniture, solar power, light equipment, and machines, bikes and vehicles and other non-consumable items on credit with just few simple steps;
+You can start accessing and owning your working tools, gadgets, electronics, phones, furniture, solar power, light equipment, and machines, bikes and vehicles and other non-consumable items on credit 
 
-One, be a member of ExtraCoop which is your #1 Africa hybrid cooperative plugin, gives you instant power to own while you keep paying for it.
+"
+  />
 
-Two, fill the online membership form of ExtraCoop and become automatic member for life.
 
-Third, make you membership payment of just 3,500 Naira and upload your proof of payment, you immediately unlock your Extracredit and Extrawealth Access to loads of offerings and benefits.;"
-            />
            
 
             <Box sx={styles.features}>
-          
             </Box>
             
            <br></br>
            {/* <LearnMore label="Learn more" path="#!" /> */}
           </Box>
+          <motion.div
+          animate={{
+            x:80,
+            opacity:1
+          }}
+          initial={{
+            opacity:0.1
+          }}
+          transition={{
+            type:"spring",
+            stiffness:60,
+            damping:100
+          }}
+          >
           <Box sx={styles.illustration}>
             <Image src={app} alt="workHard" />
           </Box>
+          </motion.div>
           <br></br>
         </Grid>
         
