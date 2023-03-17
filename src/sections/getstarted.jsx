@@ -150,8 +150,7 @@ const Getstarted = () => {
                      to budget and ensure that you have enough money to cover all of your other expenses.
                     <br></br>
                     <br></br>
-                    <br></br>
-                    <br></br>
+                   
                     <Link path='/extracoop'>
                     <Button  >Join Now</Button>
                     </Link>
