@@ -107,8 +107,8 @@ const Pricing = () => {
       <Container>
         <SectionHeading
           sx={styles.heading}
-          title="What business suits you perfectly"
-          description="Discover our Extracoop Membership plans"
+          title="What Business Suits You Perfectly"
+          description="Discover Our Extracoop Membership Plans"
         />
        {/* <Grid sx={styles.grid2}> */}
         {/* <Link path={price.readMore}> */}
