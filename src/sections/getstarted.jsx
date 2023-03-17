@@ -10,7 +10,7 @@ import {Button } from 'theme-ui';
 import Title from './Title';
 import { Link } from 'components/link';
 // img
-import imgDetail from '../assets/images/pexels-alex-staudinger-1732414.jpg';
+import imgDetail from '../assets/images/acess.jpg';
 import imgDetail2 from '../assets/images/pexels-pixabay-271816.jpg';
 
 
@@ -63,19 +63,25 @@ const Getstarted = () => {
                     />
                     <CustomTypography>
                     Let Extramile Africa helps you find a way to start or grow your business without taking cash loan in just few steps.
-How customers access our Access Now, Pay Later offer in just 24hours- 5/6 simple steps.
+                    How customers access our Access Now, Pay Later offer in just 24hours.
+                        <br></br>
+                    <b>1.</b> Fill the Extracoop form <Link path='/extracoop'><b>Here</b></Link>
+                    <br></br>
+                    <b>2.</b>Our credit manager will get in touch with you within 24hrs after filling the form to ascertain your business performance
 
-Download the form/fill the form on our extramile.africa
+                    <br></br>
+                    <b>3.</b>You the go ahead to pay 30% upfront of the actual price of the item you want to access.
+                    <br></br>
+                    <b>4.</b>An invoice for the remaining balance will be send to you 
+                    <br></br>
+                    <b>Note :</b> For you to be eligible for access now pay later, you will fill this three forms; Disclaimer, agreement and insurance form.
+                    <br></br>
+                    <b>5.</b> You then indicates if you're ordering the item on Extrastore  or  through your own supplier.
+                    <br></br>
+                    <b>6.</b> Extramile Africa then contact the supplier to ascertain the genuity of the item.
+                    <br></br>
+                    <b>7.</b> The supplier is then fully paid while you then spread your payment within 6-12 months as you continue to use the asset.
 
-Our/a sales partner/credit manager get in touch with him or her in less than 2mins after filling the form to ascertain what he wants and understanding his business and sales/biz performance
-
-He pays the 30% upfront and gets invoice for the remaining balance.
-
-He fills the disclaimer and agreement form and also fill our insurance partner form (if item spoil, or stolen, and damages and defuaults-penalties) go to do affidavit in a court of law for legal stamp duty and he send it via email or upload in our platform
-
-He then indicates if he is ordering the item on our platform (via our partners) or get his his own suppler (if he has his own supplier, we contact the seller to ascertain the genuity and we see the deal payment deal with the seller or our partner) 
-
-And wholla! That is it, He continues to use the asset and pay his way gradually into full-ownership with 6-12month period.
                     <br></br>
                     <br></br>
                     <Link path='/extracoop'>
@@ -83,7 +89,8 @@ And wholla! That is it, He continues to use the asset and pay his way gradually 
                     </Link>
                     </CustomTypography> 
                 </Box>
-             
+                <br></br>
+                    <br></br>
             </CustomGridItem>
             
             <Grid item xs={12} sm={4} md={6}>
@@ -118,16 +125,25 @@ And wholla! That is it, He continues to use the asset and pay his way gradually 
                 >
                     <Title
                     text={
-                        'Access Now Pay Later'
+                        ' Why You Need Access Now Pay Later'
                         
                     }
                     textAlign={'start'}
                     />
                     <CustomTypography>
-                    Don't plunge more into debts, let Extramile Africa helps you refocus how you take loans for your business or home through Access Now Pay Later on Extracredit by Extramile Africa. Instead of taking cash loan, Access Now Pay Later gives you seamless access to non-consumable items, assets and hired-purchase financing.
+                    Don't plunge more into debts, let Extramile Africa helps you refocus how you take loans for your business or home through Access 
+                    Now Pay Later on Extracredit by Extramile Africa.
+                    <br></br>
+                     Instead of taking cash loan, Access Now Pay Later gives you seamless access to non-consumable items, assets and hired-purchase financing.
+                     <br></br>
 
-                    Get Access to that equipment, working tools, home and office appliances, non-consumable and tangible items, make a 30% down-payment and spread the rest within 6-12months. With Access Now, Pay Later, you can make purchases and pay them off in installments over time, manage your cash flow more effectively. Instead of having
-                     to pay for everything upfront, spread out your payments over several months. Extramile Africa 'Access Now Pay' Later make it easier to budget and ensure that you have enough money to cover all of your other expenses.
+                    Get Access to that <b>equipment, working tools, home and office appliances, non-consumable and tangible items</b>, make a 30% down-payment 
+                    and spread the rest within 6-12months. 
+                    <br></br>
+                    With Access Now, Pay Later, you can make purchases and pay them off in installments over time, 
+                    manage your cash flow more effectively. Instead of having
+                     to pay for everything upfront, spread out your payments over several months. Extramile Africa 'Access Now Pay' Later make it easier 
+                     to budget and ensure that you have enough money to cover all of your other expenses.
                     <br></br>
                     <br></br>
                     <br></br>
