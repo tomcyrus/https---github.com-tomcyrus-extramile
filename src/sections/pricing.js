@@ -12,7 +12,7 @@ import { Link } from 'components/link';
 const data = [
   {
     id: 1,
-    title: 'Extrawealth Membership',
+    title: 'Extrawealth',
     subtitle: 'One Time Payment',
    
     amount: {
@@ -54,7 +54,7 @@ const data = [
   },
   {
     id: 2,
-    title: 'Extracoop Membership',
+    title: 'Extracredit',
     subtitle: 'One Time Payment',
     amount: {
       monthly: 3500,
@@ -108,7 +108,7 @@ const Pricing = () => {
         <SectionHeading
           sx={styles.heading}
           title="What business suits you perfectly"
-          description="Discover our Membership plans"
+          description="Discover our Extracoop Membership plans"
         />
        {/* <Grid sx={styles.grid2}> */}
         {/* <Link path={price.readMore}> */}
