@@ -90,7 +90,7 @@ You can start accessing and owning your working tools, gadgets, electronics, pho
           </Box>
           <motion.div
           animate={{
-            x:80,
+            x:2,
             opacity:1
           }}
           initial={{
@@ -102,9 +102,11 @@ You can start accessing and owning your working tools, gadgets, electronics, pho
             damping:100
           }}
           >
+          <center>
           <Box sx={styles.illustration}>
             <Image src={app} alt="workHard" />
           </Box>
+          </center>
           </motion.div>
           <br></br>
         </Grid>
