@@ -3,7 +3,7 @@ import { Box, Button, styled, Typography } from "@mui/material";
 // import { Link } from 'react-router-dom'
 //img
 import headerImg from '../assets/images/pexels-binyamin-mellish-186078.png'
-import snbl from 'assets/images/unlock.png';
+import snbl from 'assets/images/savenow2.png';
 
 const SaveHeader = () => {
 
@@ -50,7 +50,7 @@ const SaveHeader = () => {
             <br></br>
             
                 <Typography
-                variant='h2'
+                variant='h3'
                 component= 'h1'
                 sx={{
                     fontWeight: 700,

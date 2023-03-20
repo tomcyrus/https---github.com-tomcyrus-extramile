@@ -131,6 +131,11 @@ const Pricing = () => {
 <center>
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfSVRs4ZYdo8Oo9le5SCBmgT42NAsFDiwjrBPzSyzOIfUXS8Q/viewform?embedded=true" width="370" height="427" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 </center>
+<Box sx={styles.features}>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfSVRs4ZYdo8Oo9le5SCBmgT42NAsFDiwjrBPzSyzOIfUXS8Q/viewform?embedded=true">
+            <Button >Membership Form</Button>
+            </a>
+            </Box>
  <center>
        
        <Text as="p">Send Payment Proof</Text>

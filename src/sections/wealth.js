@@ -12,7 +12,7 @@ import { jsx, Container, Grid,Button,Text } from 'theme-ui';
 import SectionHeading from 'components/section-heading';
 import Accordion from 'components/accordion/accordion';
 import Image from 'components/image';
-import messenger from 'assets/images/academy.png';
+import messenger from 'assets/images/extrawealth.jpg';
 import { Link } from 'components/link';
 // components
 import Title from './Title'
@@ -134,6 +134,7 @@ const styles = {
     },
     illustration: {
       mb: [-6, null, null, -8, 0],
+      borderRadius:['20px'] ,
     },
     accordionGroup: {
       m: [null, null, null, '0 auto', 'unset'],

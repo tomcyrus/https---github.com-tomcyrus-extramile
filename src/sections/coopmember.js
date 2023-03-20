@@ -24,9 +24,9 @@ const paymentdetails = [
     id: 2,
     icon: support,
     title: 'Subscription Payment Methods',
-    description: `Account Number : xxxxxxxxxxxxx 
-    \nAccount Name  : xxxxxxxxxxxxxxx 
-    \nBank Name : xxxxxxxxxxxxxxx \n `,
+    description: `Account Number : 1016308218 
+    \nAccount Name  : Extrafin Advisory Technologies
+    \nBank Name : Zenith Bank \n `,
   },
 
 ];
@@ -131,6 +131,11 @@ const Coopmember = () => {
 <center>
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd1GpFQLLhRhDC5EX12Xtg8HzDUjGoLcxRX02OxAleEjyMebg/viewform?embedded=true" width="370" height="427" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 </center>
+ <Box sx={styles.features}>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSd1GpFQLLhRhDC5EX12Xtg8HzDUjGoLcxRX02OxAleEjyMebg/viewform?embedded=true">
+            <Button >Membership Form</Button>
+            </a>
+            </Box>
  <center>
        
        <Text as="p">Send Payment Proof</Text>
