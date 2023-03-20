@@ -8,7 +8,7 @@ import Image from 'components/image';
 import faq from 'assets/images/faq.webp';
 import { LearnMore } from 'components/link';
 import emoji from 'assets/images/icons/emoji.png';
-import app from 'assets/images/shop.png';
+import app from 'assets/images/extracoop22.png';
 import { motion } from "framer-motion";
 
 import check from 'assets/images/icons/check-circle.png';
