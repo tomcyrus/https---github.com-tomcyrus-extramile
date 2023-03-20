@@ -82,7 +82,7 @@ const styles = {
 
 
   footer: {
-    backgroundColor: '#2B293E',
+    backgroundColor: '#a5d6a73b',
     pt: [6],
     pb: [6],
   },
@@ -95,7 +95,7 @@ const styles = {
     alignItems: 'center',
     flexDirection: ['column', null, null, null, 'row'],
     span: {
-      color: rgba('white', 0.7),
+      color: rgba('black', 0.7),
       fontSize: 1,
       lineHeight: '18px',
       ml: [null, null, null, null, 3],
@@ -112,7 +112,7 @@ const styles = {
         ml: [3, null, null, null, 4],
       },
       a: {
-        color: 'white',
+        color: 'black',
         cursor: 'pointer',
         textDecoration: 'none',
         fontSize: [1, null, null, 2],
