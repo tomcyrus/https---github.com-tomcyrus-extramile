@@ -2,7 +2,7 @@ import React from 'react'
 import { Box, Button, styled, Typography } from "@mui/material";
 // import { Link } from 'react-router-dom'
 //img
-import headerImg from '../assets/images/extracoop1.png';
+import headerImg from '../assets/images/unlock.png';
 import { motion } from "framer-motion";
 
 const Header = () => {
@@ -50,7 +50,7 @@ const Header = () => {
             <br></br>
             
                 <Typography
-                variant='h2'
+                variant='h3'
                 component= 'h1'
                 sx={{
                     fontWeight: 700,
