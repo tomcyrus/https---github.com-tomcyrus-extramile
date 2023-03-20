@@ -6,7 +6,7 @@ import Image from 'components/image';
 import faq from 'assets/images/faq.webp';
 import { LearnMore } from 'components/link';
 import emoji from 'assets/images/icons/emoji.png';
-import app from 'assets/images/wealth.png';
+import app from 'assets/images/savenow.jpg';
 
 import check from 'assets/images/icons/check-circle.png';
 import { Link } from 'components/link';
@@ -133,6 +133,7 @@ const styles = {
   },
   illustration: {
     mb: [-6, null, null, -8, 0],
+    borderRadius:["45px"],
   },
   accordionGroup: {
     m: [null, null, null, '0 auto', 'unset'],

@@ -3,7 +3,7 @@ import { Box, Button, styled, Typography } from "@mui/material";
 // import { Link } from 'react-router-dom'
 //img
 import headerImg from '../assets/images/pexels-binyamin-mellish-186078.png'
-import snbl from 'assets/images/wealth1.png';
+import snbl from 'assets/images/unlock.png';
 
 const SaveHeader = () => {
 
@@ -141,6 +141,7 @@ const SaveHeader = () => {
                 style={{ 
                     width: "100%", 
                     marginBottom: -15,
+                    borderRadius:"45px",
                 }}
                 />
             </Box>

@@ -3,7 +3,7 @@ import { jsx, Box, Container, Grid,Button,Text } from 'theme-ui';
 import SectionHeading from 'components/section-heading';
 import Accordion from 'components/accordion/accordion';
 import Image from 'components/image';
-import faq from 'assets/images/faq.webp';
+import faq from 'assets/images/faq.png';
 import { LearnMore } from 'components/link';
 import emoji from 'assets/images/icons/emoji.png';
 import { Link } from 'components/link';
