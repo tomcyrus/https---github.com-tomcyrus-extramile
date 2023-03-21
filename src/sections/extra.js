@@ -78,7 +78,11 @@ You can start accessing and owning your working tools, gadgets, electronics, pho
 
 "
   />
-
+<Box sx={styles.features}>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfSVRs4ZYdo8Oo9le5SCBmgT42NAsFDiwjrBPzSyzOIfUXS8Q/viewform?embedded=true">
+            <Button >Membership Form</Button>
+            </a>
+            </Box>
 
            
 
