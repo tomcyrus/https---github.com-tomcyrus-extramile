@@ -84,7 +84,11 @@ const Gallery = () => {
               {/* <Accordion items={data} /> */}
             </Box>
             <br></br> 
-            
+            <Box sx={styles.features}>
+            <Link path="/wealthmember">
+            <Button >Membership Form</Button>
+            </Link>
+            </Box>
           </Box>
           
         
