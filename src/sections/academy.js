@@ -56,9 +56,9 @@ const Academy = () => {
             </Box>
             <br></br> 
             <center>
-            <Link path="https://biz-academy.extramile.africa">
+            <a href="https://biz-academy.extramile.africa">
             <Button >Join Now</Button>
-            </Link>
+            </a>
             </center>
           </Box>
           <SectionHeading
