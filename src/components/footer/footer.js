@@ -4,6 +4,7 @@ import { position, rgba } from 'polished';
 import { Link } from 'components/link';
 import Logo from 'components/logo';
 // import WhatsAppButton from './whatsapp';
+import { SocialIcon } from 'react-social-icons';
 
 import { FloatingWhatsApp } from 'react-floating-whatsapp'
 
@@ -60,6 +61,11 @@ export default function Footer() {
               Powered by Extrafin Advisory Technologies
             </Text>
           </Flex>
+          <SocialIcon network="whatsapp" url="https://api.whatsapp.com/send?phone=+2348036028454" style={{ height: 25, width: 25 }} />
+          <SocialIcon  network="facebook" url="https://www.facebook.com/extramileafrica?mibextid=ZbWKwL" style={{ height: 25, width: 25 }} />
+          <SocialIcon  network="instagram" url="https://instagram.com/extramileafrica?igshid=YmMyMTA2M2Y=" style={{ height: 25, width: 25 }} />
+          <SocialIcon network="twitter" url="https://twitter.com/"  style={{ height: 25, width: 25 }}/>
+        
           <Flex as="ul" sx={styles.footerNav}>
             {menuItems?.map((item, index) => (
               <li key={index}>
@@ -79,7 +85,7 @@ export default function Footer() {
 }
 
 const styles = {
-
+ 
 
   footer: {
     backgroundColor: '#a5d6a73b',
