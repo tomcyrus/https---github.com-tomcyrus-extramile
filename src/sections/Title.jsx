@@ -17,4 +17,4 @@ const Title = ({ text, textAlign }) => {
   )
 }
 
-export default Title
+export default Title;

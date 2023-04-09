@@ -1,4 +1,4 @@
-import { Typography } from '@mui/material'
+import { Typography } from '@mui/material';
 import React from 'react'
 
 const Paragraph = ({ text, maxWidth, mx, textAlign }) => {
@@ -17,4 +17,4 @@ const Paragraph = ({ text, maxWidth, mx, textAlign }) => {
   )
 }
 
-export default Paragraph
+export default Paragraph;
