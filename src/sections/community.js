@@ -52,8 +52,45 @@ const Community = () => {
             </a>
             </center>
       </Container>
+
+      <section id="features" sx={styles.section}>
+      <Container>
+        <Grid sx={styles.grid}>
+          <Box as="figure" sx={styles.illustration}>
+            {/* <Image src={snbl} alt="snbl" /> */}
+            <iframe width="320" height="315" src="https://www.youtube.com/embed/zzC9YhYbUX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+           
+          </Box>
+          
+          <Box sx={styles.rightContent}>
+            <SectionHeading
+            //   emoji={emoji}
+              sx={styles.heading}
+              title="Extra Home and Properties"
+              description="Affordable lands and properties in high-valued locations like Ibeju-Lekki and Epe, Lagos: Extramile Homes and Properties powered by RENTALS by Extramile Africa. Buy Now and Pay Small Small"
+            />
+            
+            <Box sx={styles.accordionGroup}>
+              {/* <Accordion items={data} /> */}
+            </Box>
+            <br></br> 
+            <center>
+            <a href="https://closa.extramile.africa/store/category/extramiles-homes-and-property-10">
+            <Button >Join Now</Button>
+            </a>
+            </center>
+          </Box>
+          
+        
+        </Grid>
+       
+      </Container>
       
     </section>
+      
+    </section>
+
+    
   );
 };
 

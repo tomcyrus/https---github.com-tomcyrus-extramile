@@ -7,7 +7,7 @@ import {
 } from '@mui/material';
 
 import {Button } from 'theme-ui';
-import Title from './Title';
+// import Title from './Title';
 import { Link } from 'components/link';
 // img
 import imgDetail from '../assets/images/acess.jpg';
@@ -154,7 +154,8 @@ const Getstarted = () => {
                     <Link path='/extracoop'>
                     <Button  >Join Now</Button>
                     </Link>
-                    </CustomTypography>
+            <iframe width="320" height="315" src="https://www.youtube.com/embed/zzC9YhYbUX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </CustomTypography>
                     
                 </Box>
             
