@@ -58,7 +58,7 @@ const Community = () => {
         <Grid sx={styles.grid}>
           <Box as="figure" sx={styles.illustration}>
             {/* <Image src={snbl} alt="snbl" /> */}
-            <iframe width="320" height="315" src="https://www.youtube.com/embed/zzC9YhYbUX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="320" height="315" src="https://www.youtube.com/embed/z4lkzOVf66o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
            
           </Box>
           
