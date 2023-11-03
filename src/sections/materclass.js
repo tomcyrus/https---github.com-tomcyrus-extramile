@@ -95,7 +95,7 @@ As you might have seen in Nigeria or anywhere in the world, even government depe
 <br/>
              
                     <br></br>
-                    <Link path='http://sbmasterclass9courses.extramile.africa/'>
+                    <Link href='http://sbmasterclass9courses.extramile.africa/'>
                     <Button  >Join Now</Button>
                     </Link>
                     </CustomTypography> 
@@ -180,7 +180,7 @@ Click the link below and register today.
                     <br></br>
                     <br/>
                   
-                    <Link path='http://sbmasterclass9courses.extramile.africa/'>
+                    <Link href='http://sbmasterclass9courses.extramile.africa/'>
                     <Button  >Join Now</Button>
                     </Link>
            
