@@ -21,7 +21,7 @@ const styles = {
   heading: {
     textAlign: 'center',
     maxWidth: 660,
-    margin: '0 auto 30px',
+    margin: '25px auto 50px',
   },
   title: {
     color: 'heading',

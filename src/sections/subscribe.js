@@ -10,7 +10,7 @@ const Subscribe = () => {
       <Container>
         <SectionHeading
           sx={styles.heading}
-          title="Sign up to be notified of the update"
+          title="Sign up to our newsletter"
           description="By signing up with your email you accept our privacy policy"
         />
         <SubscriptionForm sx={styles.subscriptionForm} />
@@ -23,7 +23,7 @@ export default Subscribe;
 
 const styles = {
   section: {
-    backgroundColor: '#353448',
+    backgroundColor: '#009688',
     pt: [9, null, null, null, 10, 13, null],
     pb: [9, null, null, null, 11, 14, null],
   },
@@ -34,7 +34,7 @@ const styles = {
       fontSize: [6, null, null, 8],
     },
     p: {
-      color: '#858B91',
+      color: '#ffffff',
       fontSize: [2, null, null, 3],
       m: ['15px auto 0', null, null, '10px auto 0'],
     },

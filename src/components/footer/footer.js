@@ -4,6 +4,7 @@ import { position, rgba } from 'polished';
 import { Link } from 'components/link';
 import Logo from 'components/logo';
 // import WhatsAppButton from './whatsapp';
+import { SocialIcon } from 'react-social-icons';
 
 import { FloatingWhatsApp } from 'react-floating-whatsapp'
 
@@ -20,10 +21,10 @@ const menuItems = [
   //   path: '#supports',
   //   label: 'Suporte',
   // },
-  // {
-  //   path: 'Abou',
-  //   label: 'Academy',
-  // },
+  {
+    path: '/aboutus',
+    label: 'About Us',
+  },
   {
     path: '/faqs',
     label: 'FAQ',
@@ -55,9 +56,16 @@ export default function Footer() {
           <Flex sx={styles.copyright}>
             <Logo isWhite />
             <Text as="span">
-              &copy; Copyright by {new Date().getFullYear()} ExtramileAfrica
+              &copy; Copyright by {new Date().getFullYear()} Extramile Africa 
+              <br></br>
+              Powered by Extrafin Advisory Technologies
             </Text>
           </Flex>
+          <SocialIcon network="whatsapp" url="https://api.whatsapp.com/send?phone=+2348036028454" style={{ height: 25, width: 25 }} />
+          <SocialIcon  network="facebook" url="https://www.facebook.com/extramileafrica?mibextid=ZbWKwL" style={{ height: 25, width: 25 }} />
+          <SocialIcon  network="instagram" url="https://instagram.com/extramileafrica?igshid=YmMyMTA2M2Y=" style={{ height: 25, width: 25 }} />
+          <SocialIcon network="twitter" url="https://twitter.com/"  style={{ height: 25, width: 25 }}/>
+        
           <Flex as="ul" sx={styles.footerNav}>
             {menuItems?.map((item, index) => (
               <li key={index}>
@@ -77,10 +85,10 @@ export default function Footer() {
 }
 
 const styles = {
-
+ 
 
   footer: {
-    backgroundColor: '#2B293E',
+    backgroundColor: '#a5d6a73b',
     pt: [6],
     pb: [6],
   },
@@ -93,7 +101,7 @@ const styles = {
     alignItems: 'center',
     flexDirection: ['column', null, null, null, 'row'],
     span: {
-      color: rgba('white', 0.7),
+      color: rgba('black', 0.7),
       fontSize: 1,
       lineHeight: '18px',
       ml: [null, null, null, null, 3],
@@ -110,7 +118,7 @@ const styles = {
         ml: [3, null, null, null, 4],
       },
       a: {
-        color: 'white',
+        color: 'black',
         cursor: 'pointer',
         textDecoration: 'none',
         fontSize: [1, null, null, 2],

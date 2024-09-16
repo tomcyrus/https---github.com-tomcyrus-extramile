@@ -14,10 +14,10 @@ export default [
   },
   {
     path: 'pricing',
-    label: 'pricing',
+    label: 'Pricing',
   },
   {
     path: 'testimonials',
-    label: 'testimonials',
+    label: 'Testimonials',
   },
 ];

@@ -127,4 +127,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-Made by Carlos Miguel with 💙 Enjoy it!
+Made by Carlos Miguel with 💙 Enjoy it!  
+ "react-floating-whatsapp": "^5.0.8",
+
+   "@mui/icons-material": "^5.6.2",
+    "@mui/material": "^5.6.2",

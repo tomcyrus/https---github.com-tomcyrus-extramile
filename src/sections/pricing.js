@@ -4,6 +4,7 @@ import { keyframes } from '@emotion/core';/** @jsx jsx */
 import { jsx, Box, Grid, Container, Flex, Text, Button } from 'theme-ui';
 import SectionHeading from 'components/section-heading';
 import PriceTable from 'components/cards/price-table';
+import PriceTables from 'components/cards/price-tables';
 import Switch from 'components/switch';
 import { Link } from 'components/link';
 
@@ -11,122 +12,87 @@ import { Link } from 'components/link';
 const data = [
   {
     id: 1,
-    title: 'Extrawealth Membership',
-    subtitle: 'Para a equipe de startup que trabalha com a nova pilha de dados central',
+    title: 'Extrawealth',
+    subtitle: 'One Time Payment',
    
     amount: {
-      monthly: 25.99,
-      annual: 25.99 * 12 - 10,
+      monthly: 3500,
+     
     },
     isRecommended: false,
     buttonText: 'Subscribe Now',
+    readMore: '/wealthmember',
  
     
     features: [
       {
         id: 1,
         isAvailable: true,
-        title: 'Acesso final a todos os cursos, exercícios e avaliações',
+        title: 'Automatic Partnership',
       },
       {
         id: 2,
         isAvailable: true,
-        title: `Acesso gratuito para todo tipo de correções de exercícios com downloads.`,
+        title: `Collaboration With Extramile Africa`,
       },
       {
         id: 3,
         isAvailable: true,
-        title: `Total de correções de avaliação com sistema de acesso de download gratuito`,
+        title: `Enjoy Up To 25% P.A`,
       },
       {
         id: 4,
-        isAvailable: false,
-        title: `Download ilimitado de cursos no conteúdo do aplicativo móvel`,
+        isAvailable: true,
+        title: `Access To Our 5-Sigma Portfolios`,
       },
-      {
-        id: 5,
-        isAvailable: false,
-        title: `Baixe e imprima cursos e exercícios em PDF`,
-      },
+      // {
+      //   id: 5,
+      //   isAvailable: false,
+      //   title: `Baixe e imprima cursos e exercícios em PDF`,
+      // },
     ],
   },
   {
     id: 2,
-    title: 'Extracredit Membership',
-    subtitle: 'Para os usuários Pro que trabalham com stacks moderna',
+    title: 'Extracredit',
+    subtitle: 'One Time Payment',
     amount: {
-      monthly: 49.99,
-      annual: 49.99 * 12 - 10,
+      monthly: 3500,
+   
     },
     isRecommended: true,
     buttonText: 'Subscribe Now',
+    readMore: '/coopmember',
     features: [
       {
         id: 1,
         isAvailable: true,
-        title: 'Acesso final a todos os cursos, exercícios e avaliações',
+        title: 'Access To Our Credit Infrastructure ',
       },
       {
         id: 2,
         isAvailable: true,
-        title: `Acesso gratuito para todo tipo de correções de exercícios com downloads.`,
+        title: `Access Up To X3 Credit (Loans) On Your Savings In 3 Months`,
       },
       {
         id: 3,
         isAvailable: true,
-        title: `Total assessment corrections with free download access system`,
+        title: `Access To Our 'Access Now Pay Later' Services`,
       },
       {
         id: 4,
         isAvailable: true,
-        title: `Download ilimitado de cursos no conteúdo do aplicativo móvel`,
+        title: `Access To Non-Consumable Products And Value-Added Services (VAS)`,
       },
-      {
-        id: 5,
-        isAvailable: true,
-        title: `Baixe e imprima cursos e exercícios em PDF`,
-      },
+      // {
+      //   id: 5,
+      //   isAvailable: true,
+      //   title: `Baixe e imprima cursos e exercícios em PDF`,
+      // },
     ],
   },
-  // {
-  //   id: 3,
-  //   title: 'Extracredit Membership',
-  //   subtitle: 'Para os usuários Pro que trabalham com stacks moderna',
-  //   amount: {
-  //     monthly: 49.99,
-  //     annual: 49.99 * 12 - 10,
-  //   },
-  //   isRecommended: true,
-  //   buttonText: 'Comece o teste grátis',
-  //   features: [
-  //     {
-  //       id: 1,
-  //       isAvailable: true,
-  //       title: 'Acesso final a todos os cursos, exercícios e avaliações',
-  //     },
-  //     {
-  //       id: 2,
-  //       isAvailable: true,
-  //       title: `Acesso gratuito para todo tipo de correções de exercícios com downloads.`,
-  //     },
-  //     {
-  //       id: 3,
-  //       isAvailable: true,
-  //       title: `Total assessment corrections with free download access system`,
-  //     },
-  //     {
-  //       id: 4,
-  //       isAvailable: true,
-  //       title: `Download ilimitado de cursos no conteúdo do aplicativo móvel`,
-  //     },
-  //     {
-  //       id: 5,
-  //       isAvailable: true,
-  //       title: `Baixe e imprima cursos e exercícios em PDF`,
-  //     },
-  //   ],
-  // },
 ];
+  
 
 const Pricing = () => {
   const [isMonthly, setIsMonthly] = useState(true);
@@ -136,19 +102,16 @@ const Pricing = () => {
   };
 
   return (
+
     <Box as="section" id="pricing" sx={styles.section}>
       <Container>
         <SectionHeading
           sx={styles.heading}
-          title="What business suits you perfectly"
-          description="Discover our Membership plans"
+          title="What Business Suits You Perfectly"
+          description="Discover Our Extracoop Membership Plans"
         />
-        {/* <Flex sx={styles.priceSwitcher}>
-          <Text as="span">Extracoop Plan</Text>
-          <Switch isMonthly={isMonthly} handlePlan={handlePlan} />
-          <Text as="span">Closa</Text>
-        </Flex> */}
-        <Link path="/payment">
+       {/* <Grid sx={styles.grid2}> */}
+        {/* <Link path={price.readMore}> */}
         <Box sx={styles.priceWrapper}>
           <Box sx={styles.priceWrapper}>
           {data?.map((price, index) => (
@@ -161,8 +124,23 @@ const Pricing = () => {
           ))}
         </Box>
         </Box>
-        </Link>
-        
+        {/* </Link> */}
+
+        {/* <Link path="/coopmember">
+        <Box sx={styles.priceWrapper}>
+          <Box sx={styles.priceWrapper}>
+          {datas?.map((price, index) => (
+            
+            <PriceTable
+              price={price}
+              isAnnual={!isMonthly}
+              key={`${isMonthly}-${index}`}
+            />
+          ))}
+        </Box>
+        </Box>
+        </Link> */}
+        {/* </Grid> */}
       </Container>
     </Box>
   );
@@ -206,6 +184,19 @@ const styles = {
       m: ['10px auto', null, null, '0 auto'],
     },
   },
+
+  // grid2: {
+  //   gap: ['20px 20px'],
+  //   justifyContent: 'center',
+  //   gridTemplateColumns: [
+  //     'repeat(1, 1fr)',
+  //     null,
+  //     null,
+  //     'repeat(2, 2fr)',
+  //     null,
+  //     'repeat(2, 180px)',
+  //   ],
+  // },
   priceSwitcher: {
     display: 'flex',
     alignItems: 'center',

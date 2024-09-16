@@ -5,6 +5,7 @@ import { LearnMore } from 'components/link';
 import app from 'assets/images/shop.png';
 import emoji from 'assets/images/icons/emoji.png';
 import check from 'assets/images/icons/check-circle.png';
+import { motion } from "framer-motion";
 
 const data = [
   {
@@ -29,11 +30,11 @@ const data = [
   },
   {
     id: 6,
-    label: 'Extraride',
+    label: 'ExtraRide',
   },
   {
     id: 7,
-    label: 'Extrasmart',
+    label: 'ExtraUtilities',
   },
 ];
 
@@ -47,10 +48,11 @@ const AppFeature = () => {
               emoji={emoji}
               sx={styles.heading}
               title="ExtraStore Access"
-              description="On Extrastore, you have access to non-consumable products and value-added services on our catalogs on credit (Access Now Pay Later),
-               fill a simple form and a customer relationship rep will jump on a call with you to deliver your orders. Here, you can either pay at once to enjoy
-                discounted or jump on our exciting value-added services of Save Now Buy Later and unlock our 20% cashback on your purchase(you don't need to be a
-                 member of ExtraCoop if you are paying at once) or pay on instalment after paying 30% initial payment. (Categories of products on Extrastore include : " />
+              description="On Extrastore, you have access to non-consumable products and value-added services on our catalogs on credit 
+              (Access Now Pay Later), fill a simple form and a customer relationship rep will jump on a call with you to deliver your orders.
+               Here, you can either pay at once to enjoy discounted or jump on our exciting value-added services of Save Now Buy Later and unlock 
+               our 20% cashback on your purchase (you don't need to be a member of ExtraCoop if you are paying at once) or pay on instalment after
+                paying 30% initial payment. (Categories of products on Extrastore include :" />
            
 
             <Box sx={styles.features}>
@@ -63,17 +65,35 @@ const AppFeature = () => {
             </Box>
            
           <br></br>
+         
             <Text as="p">
-            Buy anything on credit and jump on our pay as you go plan.
+            Buy anything on credit and jump on our Access Now, Pay Later offerings
             </Text>
            <br></br> 
            <a href="https://www.closa.extramile.africa/store">
-            <Button >Extrastore</Button>
+            <Button >Buy Now On Discount</Button>
             </a>
             <br></br>
+         
           </Box>
+          
           <Box sx={styles.illustration}>
+          <motion.div
+          animate={{
+            x:175,
+            opacity:1
+          }}
+          initial={{
+            opacity:0.1
+          }}
+          transition={{
+            type:"spring",
+            stiffness:60,
+            damping:100
+          }}
+          >
             <Image src={app} alt="workHard" />
+          </motion.div>
           </Box>
         </Grid>
       </Container>

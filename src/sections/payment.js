@@ -17,16 +17,16 @@ const paymentdetails = [
     id: 1,
     icon: support,
     title: 'Subscription Payment Methods',
-    description: `Pay the of NGN 4,000 only into the account details, after successful transaction click on the button below to confirm payment.`,
+    description: `Pay the sum of NGN 3,500 only into the account details, after successful transaction click on the button below to confirm payment.`,
     
   },
   {
     id: 2,
     icon: support,
     title: 'Subscription Payment Methods',
-    description: `Account Number : xxxxxxxxxxxxx 
-    \nAccount Name  : xxxxxxxxxxxxxxx 
-    \nBank Name : xxxxxxxxxxxxxxx \n `,
+    description: `Account Number : 1016308218 
+    \nAccount Name  : Extrafin Advisory Technologies
+    \nBank Name : Zenith Bank \n `,
   },
 
 ];
@@ -38,40 +38,36 @@ const data = [
   {
     id: 1,
     title: 'Extrawealth Membership',
-    subtitle: 'Para a equipe de startup que trabalha com a nova pilha de dados central',
-    path: '/ggg',
+    subtitle: 'One Time Payment',
+   
     amount: {
-      monthly: 4000,
-      annual: 25.99 * 12 - 10,
+      monthly: 3500,
+     
     },
     isRecommended: false,
-    buttonText: 'Subscribe Now',
+    // buttonText: 'Subscribe Now',
+ 
     
     features: [
       {
         id: 1,
         isAvailable: true,
-        title: 'Acesso final a todos os cursos, exercícios e avaliações',
+        title: 'Automatic Partnership',
       },
       {
         id: 2,
         isAvailable: true,
-        title: `Acesso gratuito para todo tipo de correções de exercícios com downloads.`,
+        title: `Collaboration With Extramile Africa`,
       },
       {
         id: 3,
         isAvailable: true,
-        title: `Total de correções de avaliação com sistema de acesso de download gratuito`,
+        title: `Enjoy Up To 25% P.A`,
       },
       {
         id: 4,
-        isAvailable: false,
-        title: `Download ilimitado de cursos no conteúdo do aplicativo móvel`,
-      },
-      {
-        id: 5,
-        isAvailable: false,
-        title: `Baixe e imprima cursos e exercícios em PDF`,
+        isAvailable: true,
+        title: `Access To Our 5-Sigma Portfolios`,
       },
     ],
   },
@@ -133,8 +129,13 @@ const Pricing = () => {
     </Box>
 </center>
 <center>
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSemykGl_EulPywh1jaB7if0FcojD5gu6Y3INftOXAjvNQQmCQ/viewform?embedded=true" width="380" height="1750" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfSVRs4ZYdo8Oo9le5SCBmgT42NAsFDiwjrBPzSyzOIfUXS8Q/viewform?embedded=true" width="370" height="427" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 </center>
+<Box sx={styles.features}>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfSVRs4ZYdo8Oo9le5SCBmgT42NAsFDiwjrBPzSyzOIfUXS8Q/viewform?embedded=true">
+            <Button >Membership Form</Button>
+            </a>
+            </Box>
  <center>
        
        <Text as="p">Send Payment Proof</Text>

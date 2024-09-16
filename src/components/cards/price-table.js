@@ -15,10 +15,10 @@ const PriceTable = ({ price, isAnnual }) => {
           {price.title}
         </Heading>
         <Text as="p" sx={styles.priceAmount}>
-          {isAnnual
+        ₦ {isAnnual
             ? price?.amount?.annual.toFixed(2)
             : price?.amount?.monthly.toFixed(2)}
-          /mo
+        
         </Text>
         <Text as="p" sx={styles.subtitle}>
           {price.subtitle}
@@ -40,11 +40,13 @@ const PriceTable = ({ price, isAnnual }) => {
           </li>
         ))}
       </Box>
+      <a href={price.readMore}> 
       <Box className="priceButton">
         <Button sx={styles.button} variant="primaryMd">
           {price.buttonText}
         </Button>
       </Box>
+      </a> 
     </Box>
   );
 };

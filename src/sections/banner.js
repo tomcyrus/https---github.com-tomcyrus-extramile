@@ -8,6 +8,7 @@ import eflna from 'assets/images/ban1.png';
 import tef from 'assets/images/ban2.png';
 import zenith from 'assets/images/ban3.png';
 import { Link } from 'components/link';
+import {motion} from 'framer-motion';
 
 
 const logos = [
@@ -25,6 +26,52 @@ const logos = [
   },
 ];
 
+const sentence={
+  hidden:{opacity:0.01, y:90},
+  visible:{
+    opacity:1,
+    y:0,
+    transition:{
+      delay:0.8,
+      type:"spring",
+      staggerChildren:0.88,
+    },
+
+  
+  },
+}
+
+const letter={
+  hidden:{opacity:0.01, y:90},
+  visible:{
+    opacity:1,
+    y:6,
+    transition:{
+      delay:0.2,
+      type:"spring",
+      staggerChildren:0.88,
+    },
+
+  
+  },
+}
+
+const img={
+  hidden:{opacity:0.01, y:90},
+  visible:{
+    opacity:1,
+    y:6,
+    transition:{
+      duration: 0.3, 
+      delay:1,
+      type:"spring",
+      staggerChildren:0.88,
+    },
+
+  
+  },
+}
+
 const Banner = () => {
   return (
     <Box as="section" id="home" sx={styles.section}>
@@ -32,18 +79,41 @@ const Banner = () => {
         <Box sx={styles.contentWrapper}>
           <Box sx={styles.bannerContent}>
             <Heading as="h1">
+            <motion.h1
+            className='load-screen--message'
+            variants={letter}
+            initial="hidden"
+            animate="visible"
+           
+            >
+
             ExtramileAfrica
+            </motion.h1>
             </Heading>
             <Text as="p">
-            Financial inclusion and wellness for shared-prosperity, cooperative growth, healthy living and everyday 
-            essentials with lots of seamless access to credit-on-the-go solutions
-            <br></br>
-            Extramile Africa is your hybrid cooperative plugin to access everyday products and services on credit  <b>(Access Now Pay Later)</b>.
+            <motion.p 
+            variants={sentence}
+            initial="hidden"
+            animate="visible"
+          
+
+             >
+             
+            Extramile Africa offers Access Now Pay Later to help underserved consumers and MSMEs in Africa access and use non-consumable items on credit, with a 30% down-payment and spread payment over a period of time, while they gain full ownership of the asset.
+            </motion.p>
             </Text>
             <br></br>
-            <Link path="/extracoop">
+            <motion.div
+              initial={{ opacity: 0, scale: 0 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 0.5 }}
+              whileHover={{scale : 1.1}}
+              
+  >
+            <Link path="/anpl">
             <Button >Get Started</Button>
             </Link>
+            </motion.div>
             {/* <SubscriptionForm sx={styles.subscriptionForm} /> */}
             <Flex sx={styles.sponsoredBy}>
               <Text as="span">Partners:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Text>
@@ -56,9 +126,19 @@ const Banner = () => {
               </Flex>
             </Flex>
           </Box>
+          <motion.span
+           whileHover={{scale : 1.2}}
+           transition ={{duration: 0.3}}
+           initial={{ opacity: 0, scale: 0.5 }}
+          animate={{ opacity: 1, scale: 1 }}
+          variants={img}
+         
+            >
           <Flex as="figure" sx={styles.bannerImage}>
+          
             <Image src={illustration} alt="illustration" />
           </Flex>
+          </motion.span>
         </Box>
       </Container>
     </Box>

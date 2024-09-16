@@ -10,7 +10,14 @@ import Cog from 'components/icons/cog';
 import PieChart from 'components/icons/pie-chart';
 import Suitcase from 'components/icons/suitcase';
 import BarChart from 'components/icons/bar-chart';
-import dashboard from 'assets/images/dashboard.png';
+// import dashboard from 'assets/images/dashboard.png';
+import dashboard1 from 'assets/images/dashboard1.png';
+import dashboard2 from 'assets/images/dashboard2.png';
+import dashboard3 from 'assets/images/dashboard3.png';
+import dashboard4 from 'assets/images/dashboard4.png';
+import dashboard5 from 'assets/images/dashboard5.png';
+import dashboard6 from 'assets/images/dashboard6.png';
+import dashboard7 from 'assets/images/dashboard7.png';
 
 const data = [
   {
@@ -23,10 +30,10 @@ const data = [
     ],
     tabContent: [
       {
-        image: dashboard,
-        title: `Recurso de primeira qualidade que melhora a classificação e o desempenho do seu site`,
-        description: `Construa um local de trabalho incrível e expanda seus negócios com a plataforma tudo-em-um da Gusto com conteúdos incríveis. Faça a entrega de seus testes em let home coletar amostras da vitória do sistema de design de suprimentos.`,
-        readMore: '#introduce-quality',
+        image: dashboard1,
+        title: `Introducing Extrapower, An Innovative Power Solution`,
+        description: `Take the first step towards a greener future with our solar power products. Contact us today to learn more about our innovative solution and how it can help you reduce your carbon footprint while also saving money.`,
+        readMore: 'https://closa.extramile.africa/store/category/extra-power-7',
       },
     ],
   },
@@ -40,10 +47,10 @@ const data = [
     ],
     tabContent: [
       {
-        image: dashboard,
-        title: `Recurso de segunda qualidade que melhora a classificação e o desempenho do seu site`,
-        description: `Construa um local de trabalho incrível e expanda seus negócios com a plataforma tudo-em-um da Gusto com conteúdos incríveis. Faça a entrega de seus testes em let home coletar amostras da vitória do sistema de design de suprimentos.`,
-        readMore: '#introduce-quality',
+        image: dashboard2,
+        title: `Get The Support You Need To Scale Your Business Above Competitors`,
+        description: `We provide an extensive selection of business support services to cater for your specific needs, ranging from financial management, HR support, marketing and branding, technology solutions, and more. Our team of professionals comprise experienced and well-trained experts who are devoted to offering the highest level of support and guidance for your business.`,
+        readMore: 'https://closa.extramile.africa/store/category/extrab-support-5',
       },
     ],
   },
@@ -57,10 +64,10 @@ const data = [
     ],
     tabContent: [
       {
-        image: dashboard,
-        title: `Recurso de terceira qualidade que aumenta a classificação e o desempenho do seu site`,
-        description: `Construa um local de trabalho incrível e expanda seus negócios com a plataforma tudo-em-um da Gusto com conteúdos incríveis. Faça a entrega de seus testes em let home coletar amostras da vitória do sistema de design de suprimentos.`,
-        readMore: '#introduce-quality',
+        image: dashboard4,
+        title: `Sales Of Farmlands, Tools, Agrochemicals, Seeds, Inputs, Supply Chain Like Palm Oil And Other Agro-Commodities `,
+        description: `Extramile Africa specializes in providing a wide range of agricultural products and services to meet the diverse needs of our customers. Our offerings include the sales of farmlands, tools, agrochemicals, seeds, and inputs, as well as the provision of supply chain solutions for products such as palm oil and other agro-commodities`,
+        readMore: 'https://closa.extramile.africa/store/category/extra-farm-3',
       },
     ],
   },
@@ -74,10 +81,10 @@ const data = [
     ],
     tabContent: [
       {
-        image: dashboard,
-        title: `Recurso de quarta qualidade que melhora a classificação e o desempenho do seu site`,
-        description: `Construa um local de trabalho incrível e expanda seus negócios com a plataforma tudo-em-um da Gusto com conteúdos incríveis. Faça a entrega de seus testes em let home coletar amostras da vitória do sistema de design de suprimentos.`,
-        readMore: '#introduce-quality',
+        image: dashboard3,
+        title: `Have Access To High-Quality Healthcare Services, Regardless Of Your Background Or Income Level.`,
+        description: `We provide affordable, reliable, and 24/7 healthcare services and products to our onboarded users. Checkout our vitual outlests and extrastore for our healthcare products and services for individual and family care`,
+        readMore: 'https://closa.extramile.africa/store/category/extra-care-4',
       },
     ],
   },
@@ -91,10 +98,10 @@ const data = [
     ],
     tabContent: [
       {
-        image: dashboard,
-        title: `Quinto recurso de qualidade que melhora a classificação e o desempenho do seu site`,
-        description: `Construa um local de trabalho incrível e expanda seus negócios com a plataforma tudo-em-um da Gusto com conteúdos incríveis. Faça a entrega de seus testes em let home coletar amostras da vitória do sistema de design de suprimentos.`,
-        readMore: '#introduce-quality',
+        image: dashboard7,
+        title: `Extramile Homes And Properties: Buy Now and Pay Small Small`,
+        description: `Affordable lands and properties in high-valued locations like Ibeju-Lekki and Epe, Lagos: Extramile Homes and Properties powered by RENTALS by Extramile Africa. Buy Now and Pay Small Small`,
+        readMore: 'https://closa.extramile.africa/store/category/extramiles-homes-and-property-10',
       },
     ],
   },
@@ -103,15 +110,15 @@ const data = [
     tabPane: [
       {
         icon: <BarChart />,
-        title: 'Extraride',
+        title: 'ExtraRide',
       },
     ],
     tabContent: [
       {
-        image: dashboard,
-        title: `Quinto recurso de qualidade que melhora a classificação e o desempenho do seu site`,
-        description: `Construa um local de trabalho incrível e expanda seus negócios com a plataforma tudo-em-um da Gusto com conteúdos incríveis. Faça a entrega de seus testes em let home coletar amostras da vitória do sistema de design de suprimentos.`,
-        readMore: '#introduce-quality',
+        image: dashboard5,
+        title: `Ride With Extraride By Extramile Africa And Make A Living For Yourself..`,
+        description: `Extramile Africa is excited to introduce our innovative Access Now Pay Later for transportation service. With Extraride, you have the opportunity to become a car or bike owner and start your own delivery and logistics business.`,
+        readMore: 'https://closa.extramile.africa/store/category/extra-ride-6',
       },
     ],
   },
@@ -120,15 +127,17 @@ const data = [
     tabPane: [
       {
         icon: <BarChart />,
-        title: 'Extrasmart',
+        title: 'ExtraUtilities',
       },
     ],
     tabContent: [
       {
-        image: dashboard,
-        title: `Quinto recurso de qualidade que melhora a classificação e o desempenho do seu site`,
-        description: `Construa um local de trabalho incrível e expanda seus negócios com a plataforma tudo-em-um da Gusto com conteúdos incríveis. Faça a entrega de seus testes em let home coletar amostras da vitória do sistema de design de suprimentos.`,
-        readMore: '#introduce-quality',
+        image: dashboard6,
+        title: `"Reliable and Efficient Utility Services for Your Comfort and Convenience"`,
+        description: `Extramile Africa, through Extrautilities, offers a wide range of utility services designed to meet the needs of residential and commercial customers. 
+        We understand that reliable and efficient utilities are essential for the comfort and convenience of our customers, which is why we are committed to providing high-quality utility 
+        services that meet their needs`,
+        readMore: 'https://closa.extramile.africa/store/category/extra-utilities-1',
       },
     ],
   },
@@ -156,9 +165,10 @@ const Dashboard = () => {
           animated={{ tabPane: true }}
           defaultActiveKey="2"
         >
+
           {data?.map((tab) => (
             <TabPane key={tab?.id} tab={<TabTitle tab={tab.tabPane} />}>
-              <TabContent tabContent={tab?.tabContent} />
+            <TabContent tabContent={tab?.tabContent} />
             </TabPane>
           ))}
         </Tabs>

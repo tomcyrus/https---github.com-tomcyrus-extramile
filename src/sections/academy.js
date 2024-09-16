@@ -3,9 +3,10 @@ import { jsx, Box, Container, Grid,Button,Text } from 'theme-ui';
 import SectionHeading from 'components/section-heading';
 import Accordion from 'components/accordion/accordion';
 import Image from 'components/image';
-import messenger from 'assets/images/academy.png';
+import extrawealth from 'assets/images/extrawealth.png';
 import { Link } from 'components/link';
 import emoji from 'assets/images/icons/emoji.png';
+import { motion } from "framer-motion";
 
 
 
@@ -30,10 +31,16 @@ const Academy = () => {
   return (
     <section id="features" sx={styles.section}>
       <Container>
+     
+      <SectionHeading
+          sx={styles.heading}
+          title="Value Added Services (VAS)"
+          // description="Discover our Membership plans"
+        />
         <Grid sx={styles.grid}>
           <Box as="figure" sx={styles.illustration}>
             {/* <Image src={messenger} alt="messenger" /> */}
-            <iframe width="320" height="315" src="https://www.youtube.com/embed/zzC9YhYbUX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="320" height="315" src="https://www.youtube.com/embed/jBxJ7yVgb9Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
           </Box>
           
           <Box sx={styles.rightContent}>
@@ -49,30 +56,35 @@ const Academy = () => {
             </Box>
             <br></br> 
             <center>
-            <Link path="/go">
+            <a href="https://biz-academy.extramile.africa">
             <Button >Join Now</Button>
-            </Link>
+            </a>
             </center>
           </Box>
           <SectionHeading
           sx={styles.heading}
-          title="Get Free Access to our Community- Closer by Extramile Africa"
-          description="Join our community of Closer by Extramile Africa today and start earning money with us
-          Extramile Africa leverage on the power of our community to drive repeated growth via referrals, distribution channels and Affiliate Partners and associates. 
-        Join us and earn passive income."
+          title="Save Now Buy Later"
+          description="Our Save Now, Buy Later product is designed to help you avoid debt and achieve your financial goals. By saving money in advance for a future purchase, you can make that purchase with confidence and without the stress of high interest rates. You also get to enjoy a wooping 20% cashback.
+          Beat inflation with Save Now, Buy Later"
           
         />
+         <motion.span
+
+           
+                whileHover={{ scale: 1.1 }}
+>
         <Box as="figure" sx={styles.illustration}>
-            {/* <Image src={messenger} alt="messenger" /> */}
-            <iframe width="320" height="315" src="https://www.youtube.com/embed/zzC9YhYbUX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <Image src={extrawealth} alt="extrawealth" />
+            {/* <iframe width="320" height="315" src="https://www.youtube.com/embed/zzC9YhYbUX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
           </Box>
-        
+          </motion.span>
         </Grid>
         <center>
-            <a href="https://www.closa.extramile.africa">
-            <Button >Join Closer</Button>
-            </a>
+        <Link path="/snbl">
+            <Button >Save Now</Button>
+            </Link>
             </center>
+           
       </Container>
       
     </section>
